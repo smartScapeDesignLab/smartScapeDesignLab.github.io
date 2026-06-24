@@ -1,0 +1,59 @@
+opportunities:
+  - type: "Research Fellow / Postdoctoral Researcher"
+    title: "Research Fellow (Digital Design/Landscape Design/Decision-support Tool)"
+    project: |
+      Landscape ecosystem services in residential precincts. This is a 42-month appointment with competitive salary, research facilities, and academic support.
+    research_directions: |
+      Digital design, landscape design, point cloud-based visual relief assessment, geospatial and image-based use-performance quantification, and decision-support tool development for precinct landscape design.
+    requirements: |
+      PhD in landscape architecture, data analysis, computer science, or a related field. Experience in point cloud segmentation and classification, real-time video object tracking, or landscape decision-support tool development is expected. Programming, data analysis, and data visualisation experience is preferred, together with strong time management and independent research capability.
+    application_procedure: |
+      Interested candidates should email their CV to jinda.qi@nus.edu.sg. Please indicate the relevant position title in the email subject and include relevant research experience, publications, and project/tool development portfolio where available.
+
+  - type: "Research Fellow / Postdoctoral Researcher"
+    title: "Research Fellow (Urban Water Management)"
+    project: |
+      Flood risk assessment and runoff simulation for residential precincts. This is an 18-month appointment and may be renewed up to 3 years, subject to performance and career development planning.
+    research_directions: |
+      Urban water management, flood risk assessment, surface runoff simulation and calibration, InVEST modelling, water quality measurement, and scientific manuscript preparation.
+    requirements: |
+      PhD in water management, urban hydrology, landscape architecture, or a related field. Experience in InVEST simulation, hydrologic analysis, water-soil cycle research, and statistical analysis is expected. Data analysis and visualisation or mechanical design experience is preferred, together with strong time management and multitasking ability.
+    application_procedure: |
+      Interested candidates should email their CV to jinda.qi@nus.edu.sg. Please indicate the relevant position title in the email subject and include relevant research experience, publications, and project/tool development portfolio where available.
+
+  - type: "Research Fellow / Postdoctoral Researcher"
+    title: "Research Fellow (Urban Ecology/Biodiversity/Landscape Maintenance)"
+    project: |
+      Assessment of biodiversity and landscape maintenance levels in residential precincts. This is a 36-month appointment.
+    research_directions: |
+      Urban ecology, biodiversity modelling, animal biodiversity simulation, biodiversity model calibration, landscape maintenance quantification, and landscape design guideline development.
+    requirements: |
+      PhD in urban ecology, landscape architecture, or a related field. Experience in biodiversity surveys and landscape maintenance assessment is expected. Modelling, data analysis, and visualisation experience is preferred, together with strong time management and independent research capability.
+    application_procedure: |
+      Interested candidates should email their CV to jinda.qi@nus.edu.sg. Please indicate the relevant position title in the email subject and include relevant research experience, publications, and project/tool development portfolio where available.
+
+  - type: "Research Fellow / Postdoctoral Researcher"
+    title: "Research Fellow (Green Building/Generative Design)"
+    project: |
+      Green building research project at the NUS Suzhou Research Institute. This is a 30-month appointment focused on optimizing building facade design in response to climate change.
+    research_directions: |
+      Green building, generative design, occupant thermal and visual requirements, building envelope performance evaluation, intelligent adaptation models for envelope design, and scientific manuscript preparation.
+    requirements: |
+      PhD in architecture, data analysis, or a related field. Experience in building facade optimization, green building carbon emission analysis, or dynamic photovoltaic energy simulation is expected. Programming, embedded systems development, data analysis and visualisation, or mechanical design experience is preferred, together with strong independent research capability.
+    application_procedure: |
+      Interested candidates should email their CV to jinda.qi@nus.edu.sg. Please indicate the relevant position title in the email subject and include relevant research experience, publications, and project/tool development portfolio where available.
+
+  - type: "Research Fellow / Postdoctoral Researcher"
+    title: "Research Fellow (Thermal Comfort)"
+    project: |
+      Thermal comfort perception research project. This is a 30-month appointment.
+    research_directions: |
+      Thermal comfort perception, landscape attribute quantification, 3D landscape reconstruction using point cloud-based approaches, and decision-support tool development for improving thermal comfort in Singapore.
+    requirements: |
+      PhD in built environment, landscape architecture, urban climate, or a related field. Experience in thermal comfort and heat mitigation is expected. Point cloud segmentation and classification experience is required. Systems development, data analysis, or data visualisation experience is preferred.
+    application_procedure: |
+      Interested candidates should email their CV to jinda.qi@nus.edu.sg. Please indicate the relevant position title in the email subject and include relevant research experience, publications, and project/tool development portfolio where available.
+
+# 无正式空缺时的说明
+opportunities_note: |
+  No formal vacancies are currently available. However, we welcome inquiries from highly motivated PhDs, postdocs, and research assistants who align with our research directions. Please contact jinda.qi@nus.edu.sg with your CV and a brief research proposal.

@@ -1,0 +1,100 @@
+{{- define "main" -}}
+
+<style>
+  .research-list-wrap .isotope-item {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+}
+</style>
+{{/* Require Isotope */}}
+{{ $.Page.Store.Set "has_isotope" true }}
+
+{{ $all_items := .RegularPagesRecursive }}
+{{ $types := slice }}
+                {{ range $all_items }}
+                    {{ with .Params.categories }}
+                        {{ $types = $types | append . }}
+                    {{ end }}
+
+                {{ end }}
+{{ $unique_types := $types | uniq }}
+
+<div class="container research-list-page">
+  <div class="article-title mt-4 mb-4">
+    <h1 class="mb-0 common-page-h1-title">
+      {{ .Title | markdownify | emojify }}
+    </h1>
+  </div>
+
+  {{/*  <h2 class="common-page-h2-title"></h2>  */}}
+
+  <div class="row">
+    <div class="co-12 col-md-3 list-page-index-sidebar">
+
+
+        <div class="page-list-index-item"><a href="javascript:void(0)" class="filter-btn active" data-filter="*">All</a></div>
+        {{ range $index, $item := $unique_types }}
+          {{ $filterClass := replace (lower $item) " " "-" }}
+          {{ $filterClass = replace $filterClass "/" "-" }} {{/* / 用 - 替换  */}}
+          <div class="page-list-index-item"><a href="javascript:void(0)" class="filter-btn" data-filter=".filter-{{ $filterClass }}">{{$item | markdownify | emojify}}</a></div>
+        {{end}}
+
+
+
+
+    </div>
+    <div class="co-12 col-md-9 list-page-index-content">
+
+      <div class="research-list-wrap">
+        {{ range $index, $item := $all_items }}
+
+                {{ $filterClasses := "" }}
+                {{ with .Params.categories }}
+                  {{ range . }}
+                    {{ $filterClass := replace (lower .) " " "-" }}
+                    {{ $filterClass = replace $filterClass "/" "-" }}
+                    {{ $filterClasses = printf "%s filter-%s" $filterClasses $filterClass }}
+                  {{ end }}
+                {{ end }}
+                <div class="grid-sizer col-lg-12 isotope-item {{ $filterClasses }}" >
+                  {{ partial "views/research_item_card" (dict  "item" $item  "index" $index) }}
+                </div>
+
+        {{ end }}
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const $grid = $('.research-list-wrap').isotope({
+      itemSelector: '.isotope-item',
+      layoutMode: 'fitRows',
+      transitionDuration: 0
+    });
+
+    $('.list-page-index-sidebar').on('click', '.filter-btn', function() {
+      let filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+
+      // 更新链接高亮状态
+      $('.filter-btn').removeClass('active');
+      $(this).addClass('active');
+    });
+});
+
+</script>
+
+
+
+
+
+
+{{- end -}}

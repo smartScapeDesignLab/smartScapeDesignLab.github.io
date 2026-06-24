@@ -1,0 +1,17 @@
+<!-- get value from params -->
+{{/*
+
+使用示例, 在 md 文件里面写：
+{{< image src="images/news/notice3.png" style=""  >}}
+
+*/}}
+
+
+{{ $class:= .Get "class" }}
+{{ $src:= .Get "src" }}
+{{ $style:= .Get "style" }}
+
+
+<div class="short-code-image {{$class}} " >
+  <img  src="{{ relURL $src }}"  style="{{ $style | safeCSS }}" />
+</div>

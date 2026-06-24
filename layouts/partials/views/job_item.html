@@ -1,0 +1,29 @@
+{{ $item := .item }}
+
+<div class="job-item view-citation" style="">
+  <div class="separator"></div>
+  <div class="job-type">{{ $item.type | markdownify | safeHTML}}</div>
+  <div class="job-title">{{ $item.title | markdownify | safeHTML}}</div>
+
+
+  <h2 class="common-page-h1-title">Project</h2>
+  <div class="job-project">
+    {{ $item.project | markdownify | safeHTML }}
+  </div>
+
+
+  <h2 class="common-page-h1-title">Research Directions</h2>
+  <div class="job-directions">
+    {{ $item.research_directions | markdownify | safeHTML }}
+  </div>
+
+  <h2 class="common-page-h1-title">Requirements</h2>
+  <div class="job-requirements">
+    {{ $item.requirements | markdownify | safeHTML }}
+  </div>
+
+  <h2 class="common-page-h1-title">APPLICATION PROCEDURE</h2>
+  <div class="job-requirements">
+    {{ $item.application_procedure | markdownify | safeHTML }}
+  </div>
+</div>

@@ -1,0 +1,50 @@
+{{/* Get file items by Type */}}
+
+{{/*
+item_type: 入参， section-type ,在哪个folder
+limit: 取多少个
+*/}}
+
+{{- $items_type := .item_type | default "news" -}}
+{{- $items_count := .limit | default 65535 -}}
+
+{{/*通过id获取指定的item*/}}
+{{- $specified_ids := .specified_ids | default slice -}}
+{{- $specified_id_attribute := .specified_id_attribute | default "page_id" -}}
+{{- $specified_where_operator := .specified_where_operator | default "in" -}}
+
+
+{{/*排序*/}}
+{{/*{{- $sort_by := .sort_by | default "Params.weight" -}}*/}}
+{{- $sort_by := .sort_by | default "Date" -}}
+{{ $sort_order := .sort_order| default "desc" }}
+
+{{/* Query */}}
+{{/*- $query := where (where site.RegularPages "Type" $items_type) "Params.shown" true -*/}}
+{{- $query :=  where site.RegularPages "Type" $items_type  -}}
+
+{{/*通过id获取指定的item*/}}
+{{- if gt (len $specified_ids) 0 -}}
+    {{/*    {{- $query =  where $query     "Params.page_id" "in" $specified_ids   -}}  */}}
+    {{- $query =  where $query     (printf "Params.%s" $specified_id_attribute) $specified_where_operator $specified_ids   -}}
+{{- end -}}
+
+
+
+{{- $count := len $query -}}
+
+{{/* Sort */}}
+{{/* $sort_by := "weight" */}}
+{{/* $query = sort $query ".Params.weight" "asc" */}}
+
+
+{{/* Sort */}}
+{{ $query = sort $query $sort_by $sort_order }}
+
+
+
+{{/* Limit */}}
+{{ $query_result := first $items_count $query }}
+
+
+{{ return $query_result }}

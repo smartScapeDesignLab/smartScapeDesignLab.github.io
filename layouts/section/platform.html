@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper mt-5">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+
+
+  <!-- 视频展示 -->
+  <div class="home-content-wrap ">
+    <div class="video-section">
+
+      {{ range $index, $item := .Params.videos }}
+
+        <div class="video-card">
+          <div class="video-thumb" >
+            <video src="{{  $item.src  | relURL }}" controls="controls"></video>
+          </div>
+          <div class="video-meta">
+            <h4>{{ $item.title | markdownify | safeHTML}}</h4>
+            <p>{{ $item.desc | markdownify | safeHTML}}</p>
+          </div>
+        </div>
+
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{- end -}}

@@ -1,0 +1,48 @@
+<!-- 页脚 -->
+<footer class="footer-classic">
+
+  <div class="row">
+    <div class="col-12 col-md-4 mb-4 mb-md-0">
+      <div class="mb-3">
+        {{/*  <span class="badge badge-light p-2 border">🖌️ SmartScape Lab Logo</span>  */}}
+        <img src="{{"images/logo.png" | relURL }}" alt="SmartScape Lab Logo" style="height: 4rem;" />
+        <div class="mt-2">
+          <span class="badge badge-secondary mr-1">🏛️ NUS</span>
+          <span class="badge badge-secondary mr-1">📐 DoA</span>
+          <span class="badge badge-secondary">⚙️ CDE</span>
+        </div>
+      </div>
+      <h3 class="lab-name">{{site.Title | markdownify | emojify}}</h3>
+      <p class="institution-name">
+        {{site.Params.lab_info.lab_full_name | markdownify | emojify}}
+      </p>
+    </div>
+    <div class="col-12 col-md-4  mb-4 ml-md-5">
+      <h4><i class="fas fa-map-marker-alt mr-2"></i> Visit Us</h4>
+      <address>
+        {{site.Params.lab_info.address | markdownify | emojify}}
+      </address>
+    </div>
+    <div class="col-12 col-md-3  ml-md-5">
+      <h4><i class="fas fa-share-alt mr-2"></i> Connect</h4>
+      <div>
+        {{/*  <a href="#" class="social-link"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-github fa-lg"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#" class="social-link"><i class="fas fa-globe fa-lg"></i></a>  */}}
+
+        {{range $index, $item := site.Params.lab_info.social_links}}
+        <a target="_blank" href="{{$item.url}}" title="{{$item.name | markdownify | emojify}}" class="social-link">
+          <i class="{{$item.icon}} fa-lg"></i>
+        </a>
+        {{end}}
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>
+      <i class="far fa-copyright"></i> <script> document.write(new Date().getFullYear());  </script> {{site.Title | markdownify | emojify}}. All rights
+      reserved.
+    </p>
+  </div>
+</footer>

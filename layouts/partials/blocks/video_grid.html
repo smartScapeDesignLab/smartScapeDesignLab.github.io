@@ -1,0 +1,66 @@
+{{/*
+  卡片轮播 Partial - 支持外部箭头控制
+  用法: {{ partial "card-carousel.html" (dict "carouselId" "homepage" "carouselData" $.Site.Data.carousels.homepage) }}
+  外部箭头: 添加 data-carousel-target="轮播ID" data-carousel-action="prev/next" 属性
+*/}}
+
+{{ $carouselId := .carouselId | default "carousel" }}
+{{ $data := .carouselData }}
+{{ $cards := $data.cards }}
+{{ $title := $data.title }}
+{{ $subtitle := $data.subtitle }}
+{{ $showIndicators := $data.showIndicators | default true }}
+{{ $cardsPerView := $data.cardsPerView | default (dict "desktop" 3 "tablet" 2 "mobile" 1) }}
+
+{{ if $cards }}
+
+
+<div class="video-grid-wrapper my-5" id="wrapper-{{ $carouselId }}">
+
+  {{ if $title }}
+    <div class="text-center mb-4">
+      <h2>{{ $title }}</h2>
+      {{ if $subtitle }}<p class="text-muted">{{ $subtitle }}</p>{{ end }}
+    </div>
+  {{ end }}
+
+  <div class="row h-video-grid">
+
+    {{ range $index, $card := $cards }}
+
+
+      <div class="col-card col-12 col-md-4" data-index="{{ $index }}">
+        <div class="card">
+          {{ if $card.image }}
+            <img src="{{ $card.image }}" class="card-img-top" alt="{{ $card.title }}">
+          {{ else if $card.video_src  }}
+
+            {{/*自动初始化所有带有 data-auto-init 属性的容器， 或者初始化所有 .video-hover-container*/}}
+            <div id="{{ $carouselId }}player{{ $index }}"
+                 class="video-hover-container video-item-wrap" data-auto-init="true" data-muted="true"
+            >
+              <video src="{{ $card.video_src | relURL }}"
+                     controls="controls"
+                     loop="" muted="" preload="metadata" playsinline=""
+              ></video>
+            </div>
+
+          {{ end }}
+          <div class="card-body">
+            <div class="c-video-subtitle">
+              <div><h5 class="card-title">{{ $card.title }}</h5></div>
+            </div>
+            <p class="card-text">{{ $card.text }}</p>
+
+          </div>
+        </div>
+      </div>
+
+    {{ end }}
+
+  </div>
+
+</div>
+
+{{ end }}
+

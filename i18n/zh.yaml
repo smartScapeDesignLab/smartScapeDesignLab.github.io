@@ -1,0 +1,277 @@
+# Navigation
+
+- id: toggle_navigation
+  translation: 切换导航
+
+- id: table_of_contents
+  translation: 目录
+
+- id: on_this_page
+  translation: 在本页
+
+- id: back_to_top
+  translation: 回到顶部
+
+- id: home
+  translation: Home
+
+- id: close
+  translation: Close
+
+- id: languages
+  translation: 语言
+
+# General
+
+- id: related
+  translation: 相关
+
+- id: minute_read
+  translation: 分钟阅读时长
+
+- id: previous
+  translation: 上一页
+
+- id: next
+  translation: 下一页
+
+- id: figure
+  translation: '图%d:'
+
+- id: edit_page
+  translation: 编辑本页
+
+# Themes
+
+- id: theme_selector
+  translation: Display preferences
+
+- id: theme_light
+  translation: 浅色
+
+- id: theme_dark
+  translation: 深色
+
+- id: theme_auto
+  translation: 自动
+
+# Buttons
+
+- id: btn_preprint
+  translation: 预印本
+
+- id: btn_pdf
+  translation: PDF
+
+- id: btn_cite
+  translation: 引用
+
+- id: btn_slides
+  translation: 演示文稿
+
+- id: btn_video
+  translation: 视频
+
+- id: btn_code
+  translation: 代码
+
+- id: btn_dataset
+  translation: 数据集
+
+- id: btn_project
+  translation: 项目
+
+- id: btn_poster
+  translation: 海报
+
+- id: btn_source
+  translation: 源文档
+
+- id: btn_copy
+  translation: 复制
+
+- id: btn_copied
+  translation: Copied
+
+- id: btn_download
+  translation: 下载
+
+# About widget
+
+- id: interests
+  translation: 研究方向
+
+- id: education
+  translation: 教育经历
+
+- id: user_profile_latest
+  translation: 最新
+
+# Accomplishments widget
+
+- id: see_certificate
+  translation: 查看证书
+
+# Experience widget
+
+- id: experience
+  translation: 工作经历
+
+- id: present
+  translation: 现在
+
+# Pages widget
+
+- id: read_more
+  translation: 阅读文章
+
+- id: more_pages
+  translation: 查看全部
+
+- id: more_posts
+  translation: 查看全部文章
+
+- id: more_talks
+  translation: 查看全部演讲
+
+- id: more_publications
+  translation: 查看全部出版物
+
+# Contact widget
+
+- id: contact_name
+  translation: 姓名
+
+- id: contact_email
+  translation: 邮箱
+
+- id: contact_message
+  translation: 信息
+
+- id: contact_attachment
+  translation: Attach file
+
+- id: contact_send
+  translation: 发送
+
+- id: book_appointment
+  translation: 预约
+
+# Publication/Event details
+
+- id: abstract
+  translation: 摘要
+
+- id: publication
+  translation: 出版物
+
+- id: publication_type
+  translation: 类型
+
+- id: date
+  translation: 日期
+
+- id: last_updated
+  translation: 最近更新于
+
+- id: event
+  translation: 事件
+
+- id: location
+  translation: 位置
+
+- id: pub_paper_conference
+  translation: 会议文章
+
+- id: pub_article_journal
+  translation: 期刊文章
+
+- id: pub_article
+  translation: 预印本
+
+- id: pub_report
+  translation: 报告
+
+- id: pub_book
+  translation: 书籍
+
+- id: pub_chapter
+  translation: 章节
+
+- id: pub_thesis
+  translation: 论文
+
+- id: pub_patent
+  translation: 专利
+
+# Project details
+
+- id: open_project_site
+  translation: 访问项目网站
+
+# Content types for default archive page titles and search results
+
+- id: posts
+  translation: 文章
+
+- id: publications
+  translation: 出版物
+
+- id: talks
+  translation: 演讲
+
+- id: projects
+  translation: 项目
+
+- id: slides
+  translation: Slides
+
+- id: authors
+  translation: Authors
+
+# Search
+
+- id: search
+  translation: 搜索
+
+- id: search_placeholder
+  translation: 搜索...
+
+- id: search_results
+  translation: 搜索结果
+
+- id: search_no_results
+  translation: 没有找到结果
+
+- id: search_common_queries
+  translation: 经常搜寻
+
+# Error 404
+
+- id: page_not_found
+  translation: 找不到页面
+
+- id: 404_recommendations
+  translation: 也许你在找？
+
+# Cookie consent
+
+- id: cookie_message
+  translation: 本网站使用cookies来确保您在本网站上获得最佳体验。
+
+- id: cookie_dismiss
+  translation: 知道了!
+
+- id: cookie_learn
+  translation: 了解更多
+
+# Published with
+
+- id: published_with
+  translation: 🤔
+
+- id: brief_description
+  translation: 工作内容
+
+- id: summary
+  translation: 简介

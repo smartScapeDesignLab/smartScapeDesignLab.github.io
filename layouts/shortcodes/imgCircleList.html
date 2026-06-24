@@ -1,0 +1,89 @@
+<!-- get value from params -->
+
+{{ $folderDir:= .Get "dir" }}
+{{ $class:= .Get "class" }}
+
+{{ $height := .Get "height" | default 200 }}
+{{ $height  = replace (replace $height "px" "") "x" "" }}
+
+{{ $width := .Get "width" | default 300 }}
+{{ $width = replace (replace $width "px" "") "x" "" }}
+
+{{ $translateZ := .Get "translateZ" | default 300 }}
+{{ $translateZ = replace (replace $translateZ "px" "") "x" "" }}
+
+
+{{/*wrapper 2 倍高度*/}}
+{{ $wrapDivHeight := mul (int $height)  2 }}
+
+
+{{ $resize:= .Get "resize" }}
+{{ $webp:= .Get "webp" | default true }}
+{{ $loading:= .Get "loading" | default "lazy" }}
+{{ $command:= .Get "command" }}
+{{ $option:= .Get "option" }}
+{{ $zoomable:= .Get "zoomable" | default true }}
+
+{{ $scratch := newScratch }}
+{{ $page:= .Page }}
+{{ $assetsImage:= resources.Match (add (string $folderDir) `/*`) }}
+{{ $contentImage:= $page.Resources.Match (add (string $folderDir) `/*`) }}
+{{ $staticImage:= print "static/" $folderDir }}
+
+
+{{ $imageListVar := .Get "image_list_var" | default "image_list" }}
+{{ $imageList := index $page.Params $imageListVar }}
+
+
+{{ $imagesLength :=  $imageList | len}}
+{{ $oneImgDegree := math.Floor (div 360 $imagesLength) }}
+{{/*余数*/}}
+{{ $oneImgDegreeMode := mod 360 $imagesLength }}
+
+{{/*{{ $page.Params }}*/}}
+
+
+<div class="circle-3d-images-wrap"
+     style=" height: {{ $wrapDivHeight }}px; "
+>
+
+    <div class="gallery zoomable circle-3d-images"
+         style="width: {{ $width }}px; height: {{ $height }}px; ">
+        {{/*{{ range $index, $item := $page.Params.image_list }}*/}}
+        {{ range $index, $item := $imageList }}
+
+            {{ $degree := mul $index $oneImgDegree }}
+            {{ $lastIndex := sub $imagesLength 1 }}
+
+            {{ if eq $index  $lastIndex }}
+                {{ $degree = add $oneImgDegreeMode ( mul $index $oneImgDegree ) }}
+            {{ end }}
+
+            {{/*--- {{ $degree }} ---*/}}
+
+            <div class="gallery-item img-circle-item"
+                 style="transform: rotateY({{ $degree }}deg) translateZ({{ $translateZ }}px);
+                         "
+            >
+
+                    <a      href="{{ relLangURL $item.path }}"
+                            style="display: block;"
+                            class="glightbox">
+                        <img
+                                loading="{{ $loading }}"
+                                src="{{ relLangURL $item.path }}"
+                                class="img"
+                                style="margin: 0;"
+                                alt="{{ $item.title }}"
+
+                                onerror="this.onerror='null';this.src='{{ $scratch.Get `imageFallback` }}'" />
+                    </a>
+                {{ if $item.title }}<div class="img-circle-desc">{{ $item.title }}</div> {{ end }}
+
+            </div>
+        {{ end }}
+
+
+    </div>
+</div>
+

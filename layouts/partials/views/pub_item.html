@@ -1,0 +1,51 @@
+{{ $item := .item }}
+
+<div class="paper-item   view-citation full-list-item"  >
+
+
+      <div class="row" style=" ">
+            <div class="col-12 col-md-6">
+
+                  <div class="pub-title ">
+                    {{if $item.pdf }} <a href="{{$item.pdf | relURL }}" target="_blank"> {{end}}
+                        <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> {{ $item.title | markdownify | safeHTML}}
+                        <span class="pub-journal">{{ $item.journal | markdownify | safeHTML}} ({{$item.year}}) </span>
+                    {{if $item.pdf }} </a> {{end}}
+                  </div>
+
+                    <div class="pub-author">{{ $item.authors_text | markdownify | safeHTML}}</div>
+
+                    <div>
+                        {{ if $item.links}}
+                          <div>
+                            {{ range $item.links }}
+                              {{- $url := .url -}}
+                              {{- if eq .link_type "local" -}}
+                                {{- $url = .url | relURL -}}
+                              {{- end -}}
+                              <a class="btn btn-outline-primary btn-page-header btn-sm" target="_blank" href="{{ $url }}">{{ .text }}</a>
+                            {{ end }}
+                          </div>
+                        {{ end }}
+                    </div>
+            </div>
+
+            <div class="col-12 col-md-6" >
+                  <div class="  overflow-hidden">
+                      {{ if $item.cover_image}}
+                          <img src="{{$item.cover_image | relURL }}" alt="cover image" class="pub-cover-image">
+                      {{ else }}
+                          <img src="{{"images/publications/ph.jpg"| relURL }}" alt="cover image" class="pub-cover-image">
+                      {{ end }}
+                  </div>
+            </div>
+
+      </div>
+
+
+  </div>
+
+
+
+
+

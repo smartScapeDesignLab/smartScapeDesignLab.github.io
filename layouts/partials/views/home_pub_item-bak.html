@@ -1,0 +1,28 @@
+{{ $item := .item }}
+
+<div class="col-12 col-md-4">
+  <div class="paper-item card-simple view-card home-list-item">
+    {{/*
+    <div class="paper-venue">
+      {{ $item.journal | markdownify | safeHTML}} · {{$item.year}}
+    </div>
+    */}}
+    <div class="paper-authors">
+      {{ $item.authors_text | markdownify | safeHTML}}
+    </div>
+    <div class="paper-title">
+
+      {{if $item.pdf }} <a href="{{$item.pdf | relURL }}" target="_blank"> {{end}}
+        <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> {{ $item.title | markdownify | safeHTML}}
+      {{if $item.pdf }} </a> {{end}}
+    </div>
+
+    <div class="paper-links btn-links">
+      {{ range $l_index, $l_item := $item.links }}
+      <a class="btn btn-outline-primary btn-page-header btn-sm" target="_blank" href="{{$l_item.url}}">
+        {{$l_item.text | markdownify | safeHTML}}
+      </a>
+      {{end }}
+    </div>
+  </div>
+</div>

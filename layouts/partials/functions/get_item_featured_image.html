@@ -1,0 +1,32 @@
+{{/*
+本函数功能：
+通过 page_item（site.RegularPages 返回列表里的一个 pageItem） 获取和它相关的一个 featured 图片
+即同一个文件夹里面的 featured.png/jpg/gif 图片
+
+返回：
+通过  Resources.ByType "image" 获取到的 一个 图片 item  $resource
+
+应用：
+$resource.RelPermalink
+$resource.Title
+$resource.Height
+$resource.Width
+
+ */}}
+
+
+
+{{/*
+page_item: 入参，site.RegularPages 返回列表里的一个 pageItem
+*/}}
+{{- $page_item := .page_item | default false -}}
+{{- $image_vague_name := .image_vague_name | default "*featured*" -}}
+
+{{- $resource := false -}}
+{{- if $page_item -}}
+  {{/*  {{- $resource = ($page_item.Resources.ByType "image").GetMatch "*featured*" -}}*/}}
+  {{- $resource = ($page_item.Resources.ByType "image").GetMatch $image_vague_name -}}
+{{- end -}}
+
+
+{{- return $resource -}}

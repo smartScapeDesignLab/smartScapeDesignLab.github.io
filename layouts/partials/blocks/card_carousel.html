@@ -1,0 +1,98 @@
+{{/*
+  卡片轮播 Partial - 支持外部箭头控制
+  用法: {{ partial "card-carousel.html" (dict "carouselId" "homepage" "carouselData" $.Site.Data.carousels.homepage) }}
+  外部箭头: 添加 data-carousel-target="轮播ID" data-carousel-action="prev/next" 属性
+*/}}
+
+{{ $carouselId := .carouselId | default "carousel" }}
+{{ $data := .carouselData }}
+{{ $cards := $data.cards }}
+{{ $title := $data.title }}
+{{ $subtitle := $data.subtitle }}
+{{ $showIndicators := $data.showIndicators | default true }}
+{{ $cardsPerView := $data.cardsPerView | default (dict "desktop" 3 "tablet" 2 "mobile" 1) }}
+
+{{ if $cards }}
+  <div class="card-carousel-wrapper my-5" id="wrapper-{{ $carouselId }}">
+    {{ if $title }}
+      <div class="text-center mb-4">
+        <h2>{{ $title }}</h2>
+        {{ if $subtitle }}<p class="text-muted">{{ $subtitle }}</p>{{ end }}
+      </div>
+    {{ end }}
+
+    <!-- 卡片轮播区域 -->
+    <div id="carousel-{{ $carouselId }}"
+         class="card-carousel"
+         data-cards-desktop="{{ $cardsPerView.desktop }}"
+         data-cards-tablet="{{ $cardsPerView.tablet }}"
+         data-cards-mobile="{{ $cardsPerView.mobile }}">
+
+      <!-- 轮播主体 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            {{ range $index, $card := $cards }}
+
+              <!-- 卡片 {{ add $index 1 }} -->
+              <div class="col-card" data-index="{{ $index }}">
+                <div class="card">
+                  {{ if $card.image }}
+                    <img src="{{ $card.image }}" class="card-img-top" alt="{{ $card.title }}">
+                  {{ else if $card.video_src  }}
+                    {{/*controls="controls"*/}}
+
+                    {{/*自动初始化所有带有 data-auto-init 属性的容器， 或者初始化所有 .video-hover-container*/}}
+                    <div id="{{ $carouselId }}player{{ $index }}"
+                         class="video-hover-container video-item-wrap" data-auto-init="true" data-muted="true"
+                    >
+                      <video src="{{ $card.video_src | relURL }}"
+                             controls="controls"
+                             loop="" muted="" preload="metadata" playsinline=""
+                      ></video>
+                    </div>
+
+                  {{ end }}
+                  <div class="card-body">
+                    <div class="c-video-subtitle">
+                      <div><h5 class="card-title">{{ $card.title }}</h5></div>
+                      <div class="c-sub-arrow"
+                           title="Full screen"
+                           onclick="controlById('{{ $carouselId }}player{{ $index }}', 'fullscreen')">
+                        <i class="fas fa-arrow-right arrow-45-1 "></i>
+                      </div>
+                    </div>
+                    <p class="card-text">{{ $card.text }}</p>
+                    {{ if $card.buttonText }}
+                      <a href="{{ $card.buttonUrl | default "#" }}" class="btn btn-outline-primary">{{ $card.buttonText }}</a>
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <!-- 内部左右控制箭头 (可选，可以隐藏) -->
+      <div class="carousel-arrows">
+        <!-- 左右控制箭头 -->
+        <button class="carousel-control-prev" type="button" data-carousel="{{ $carouselId }}">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">上一张</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-carousel="{{ $carouselId }}">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">下一张</span>
+        </button>
+      </div>
+
+      <!-- 指示器容器 -->
+      {{ if $showIndicators }}
+        <div class="carousel-indicators" data-carousel="{{ $carouselId }}">
+          <!-- 由JS动态生成 -->
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

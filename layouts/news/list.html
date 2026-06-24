@@ -1,0 +1,73 @@
+{{- define "main" -}}
+
+
+{{ $all_pages := .RegularPagesRecursive }}
+<div class="container research-list-page">
+  <div class="article-title mt-4 mb-4">
+    <h1 class="mb-0 common-page-h1-title">
+      {{ .Title | markdownify | emojify }}
+    </h1>
+
+  </div>
+
+  {{/*  <h2 class="common-page-h2-title"></h2>  */}}
+
+  <div class="row">
+    <div class="co-12 col-md-3 list-page-index-sidebar">
+
+        {{ if   eq .CurrentSection .FirstSection  }}
+          {{/* 这是 /design/ 页面 */}}
+          {{/* 显示所有 Thesis/Studio/Competition 文章 */}}
+
+            {{/* 遍历 design 下的每个子分类（thesis, studio, competition） */}}
+            {{ range .Sections }}
+              <section>
+                <div class="page-list-subcategory"><a href="{{.RelPermalink}}">{{.Title | markdownify | emojify}}</a></div>
+                  {{/* 遍历该分类下的每个子文件夹（the1, the2...） */}}
+                  {{/*  {{ range .Sections }}
+                    <li>
+                      <strong>{{ .Title }}</strong>
+                      <ul>
+                        {{ range .RegularPages }}
+                          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                      </ul>
+                    </li>
+                  {{ end }}  */}}
+
+                  {{/* 如果没有子文件夹，直接显示该分类下的文章 */}}
+                  {{ if eq (len .Sections) 0 }}
+                      {{ range .RegularPages }}
+                        <div class="page-list-index-item"><a href="{{.RelPermalink}}">{{.Title | markdownify | emojify}}</a></div>
+                      {{ end }}
+                  {{ end }}
+              </section>
+            {{ end }}
+
+        {{ else }}
+          {{/* 这是 /design/thesis/ 或 /design/studio/ 等子页面 */}}
+
+              {{ range $index, $item := $all_pages  }}
+                <div class="page-list-index-item"><a href="{{$item.RelPermalink}}">{{$item.Title | markdownify | emojify}}</a></div>
+              {{end}}
+
+        {{ end }}
+
+    </div>
+    <div class="co-12 col-md-9 list-page-index-content">
+
+      <div class="research-list-wrap">
+        {{ $paginator := .Paginate $all_pages  }}
+        {{ range $index, $post := $paginator.Pages }}
+          {{ partial "functions/render_view" (dict "page" $ "item" . "view" "research_item_card" "index" $index) }}
+        {{end}}
+      </div>
+      <div class="pt-5">{{ partial "pagination" . }}</div>
+
+    </div>
+  </div>
+
+
+</div>
+
+{{- end -}}

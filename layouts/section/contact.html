@@ -1,0 +1,88 @@
+{{- define "main" -}}
+
+  {{$titles := .Params.content_titles}}
+  {{$values := .Params.content_values}}
+
+
+
+{{/*  {{ partial "page_header.html" . }}  */}}
+
+<div class="container pt-3 page-contact-us">
+
+  <div class="mb-5 pb-2 mt-5" style="    border-bottom: 1px solid #e2e8f0;">
+      <h1 class="mb-0 common-page-h1-title ">{{ .Title | markdownify | emojify }}</h1>
+  </div>
+
+
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+
+  <div class="contact-card-wrap row contact-info-card" >
+
+      <div class="col-12 col-md-6" style="padding-left: 0; padding-right: 0;">
+        <img src="{{"images/contact/c1.jpg" | relURL }}" alt="" style="height: 100%" />
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="contact-info-card-wrap1">
+          <div class="card-title">
+            <i class="fas fa-circle-info"></i>
+            {{$titles.contact_info | markdownify}}
+          </div>
+
+          <!-- Email -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <div class="contact-label">{{$titles.email | markdownify}}</div>
+              <div class="contact-value">
+                {{$values.email | markdownify}}
+              </div>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <div class="contact-label">{{$titles.address | markdownify}}</div>
+              <div class="contact-value" id="addressText">
+                {{$values.address | markdownify}}
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Additional info: website hint -->
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="contact-details">
+              <div class="contact-label">{{$titles.university_site | markdownify}}</div>
+              <div class="contact-value">
+                {{$values.university_site | markdownify}}
+
+                <span style="font-size: 0.75rem; color: #8aaec9; margin-left: 0.5rem;">
+                              <i class="fas fa-external-link-alt"></i>
+                          </span>
+              </div>
+              <div style="  font-size: 0.75rem;  margin-top: 0.3rem;">
+                {{$values.site_info | markdownify}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+</div>
+
+{{- end -}}

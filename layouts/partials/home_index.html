@@ -1,0 +1,159 @@
+{{/* jQuery轮播效果（Carousell） 注意 prev nextl 两个button的href id 和 setction
+id要一致 https://blog.csdn.net/chenmo2001/article/details/117674446 */}} {{
+$slider_hash_id := "hero_sliders" }} {{ $slider_args := dict "wcPage" $
+"wcBlock" .Params.heroSlideBlock "wcIdentifier" $slider_hash_id }}
+<section id="section-home-slide" class="home-section wg-home-slide">
+
+  <div
+    class="hero-media carousel slide"
+    data-ride="carousel"
+    id="{{ $slider_hash_id }}"
+  >
+    {{ partial "blocks/slider.html" $slider_args }}
+  </div>
+</section>
+
+{{/* lab 介绍 */}}
+{{ $heroBlock := .Params.heroBlock }}
+<section id="section-hero" class="home-section wg-hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-title">
+        {{ $heroBlock.content.title | markdownify }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 hero-desc-txt">
+        {{$heroBlock.content.text | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* research direction */}} {{ $show_limit := .Params.research.show_limit }} {{
+$research_items := partial "functions/get_type_items" (dict "item_type"
+"research" "limit" $show_limit ) }}
+<section id="research" class="home-section wg-hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-title">
+        {{ .Params.research.title | markdownify }}
+      </div>
+    </div>
+    <div class="research-list-wrap">
+      {{ range $index, $item := $research_items }}
+          {{ partial  "functions/render_view" (dict
+                        "item" $item
+                        "view" "home_research_item"
+                        "index" $index
+            )
+          }}
+      {{end}}
+    </div>
+  </div>
+</section>
+
+{{/* selected publications */}}
+{{ $featured_pubs := where (sort (site.Data.publications) "year" "desc") "home_featured" 1 }}
+{{ $featured_pubs_limit := first .Params.featured_publication.show_limit $featured_pubs }}
+{{/*
+<section id="featured_publication" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-title">
+        {{ .Params.featured_publication.title | markdownify }}
+      </div>
+    </div>
+    <div class="home-papers-grid row">
+      {{ range $index, $item := $featured_pubs_limit }} {{ partial
+      "views/home_pub_item" (dict "item" $item "index" $index) }}
+      {{end}}
+
+      <div class="col-12 col-md-4">
+          <div class="paper-item card-simple view-card justify-content-center align-items-center">
+            <div class="paper-title" style="flex-grow: unset;">
+              <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+              <a href="{{  "publications" | relURL }}">See all publications</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>  */}}
+
+
+<section id="featured_publication2" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 section-title">
+        {{ .Params.featured_publication.title | markdownify }}
+      </div>
+      <div class="col-12 col-md-3 mt-md-5">
+           <div class="paper-title" style=" ">
+              <i class="fa fa-book pub-icon" aria-hidden="true"></i>
+              <a href="{{  "publications" | relURL }}">See all publications</a>
+      </div>
+    </div>
+    <div class="page-publication-list" style="padding: 0 1rem;">
+      {{ range $index, $item := $featured_pubs_limit }}
+        {{ partial "views/pub_item" (dict "item" $item "index" $index) }}
+      {{end}}
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{{/* selected news */}} {{ $news_section := site.GetPage "/news" }} {{
+$featured_news := $news_section.RegularPagesRecursive.ByDate.Reverse }} {{
+$featured_news_limit := first .Params.featured_news.show_limit $featured_news }}
+<section id="featured_news" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-title">
+        {{ .Params.featured_news.title | markdownify }}
+      </div>
+    </div>
+    <div class="home-news-list">
+      {{ range $index, $item := $featured_news_limit }} {{ partial
+      "views/home_news_item" (dict "item" $item "index" $index) }} {{end}}
+    </div>
+  </div>
+</section>
+
+{{/* selected positions */}}
+{{/*  去掉首页的 join us block
+{{ $featured_positions := first
+.Params.featured_positions.show_limit site.Data.jobs.opportunities }}
+<section id="featured_positions" class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 section-title">
+        {{ .Params.featured_positions.title | markdownify }}
+      </div>
+    </div>
+    <div class="home-positions-list row">
+      <div class="col-12 col-md-8">
+        <div class="pos-subtitle">Open Positions</div>
+        <ul class="li-positions ">
+          {{ range $index, $item := $featured_positions }}
+          <li>{{$item.title | markdownify | emojify }}</li>
+          {{end}}
+        </ul>
+      </div>
+      <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+        <div class="pos-email">
+          {{ .Params.featured_positions.contact_email | markdownify }}
+        </div>
+        <div>
+          <a href="{{"opportunities" | relURL }}" class="btn btn-primary mt-3" style="font-weight: bold;" >View Details
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ */}}

@@ -1,0 +1,67 @@
+<!-- get value from params -->
+
+{{/*
+
+使用示例, 在 md 文件里面写：
+{{< imgList image_list_var="images_list" >}}
+*/}}
+
+
+
+{{ $folderDir:= .Get "dir" }}
+{{ $class:= .Get "class" }}
+{{ $height:= replace (replace (.Get "height") "px" "") "x" "" }}
+{{ $width:= replace (replace (.Get "width") "px" "") "x" "" }}
+{{ $resize:= .Get "resize" }}
+{{ $webp:= .Get "webp" | default true }}
+{{ $loading:= .Get "loading" | default "lazy" }}
+{{ $command:= .Get "command" }}
+{{ $option:= .Get "option" }}
+{{ $zoomable:= .Get "zoomable" | default true }}
+
+{{ $scratch := newScratch }}
+{{ $page:= .Page }}
+{{ $assetsImage:= resources.Match (add (string $folderDir) `/*`) }}
+{{ $contentImage:= $page.Resources.Match (add (string $folderDir) `/*`) }}
+{{ $staticImage:= print "static/" $folderDir }}
+
+
+{{/*{{ $page.Params }}*/}}
+{{ $imageListVar := .Get "image_list_var" | default "image_list" }}
+{{ $imageList := index $page.Params $imageListVar }}
+
+<div class="gallery zoomable">
+    {{ range $imageList }}
+        {{ $image := resources.Get .path }}
+        {{/*{{ $image := relLangURL .path }}*/}}
+        {{ partial "image-pipe.html" (dict "Context" $scratch "Height" $height "Width" $width "Command" $command "Webp" $webp "Image" $image "Option" $option "Zoomable" $zoomable "Resize" $resize) }}
+
+        {{/*{{ $imageHeight:= $scratch.Get "image-height" }}
+        {{ $imageWidth:= $scratch.Get "image-width" }}*/}}
+
+        <div class="gallery-item">
+
+                <a      href="{{ .path | relURL }}"
+                        style="display: block;"
+                        class="glightbox">
+                    <img
+                            src="{{ .path | relURL }}"
+                            class="img"
+                            style="margin: 0;"
+                            alt="{{ .title }}"
+                     />
+                </a>
+            <div class="character-desc">{{ .title }}</div>
+
+        </div>
+    {{ end }}
+</div>
+<script type="text/javascript">
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // DOM 已加载，可以安全操作
+    // console.log('DOM 已完全加载');
+    const options = {};
+    const lightbox = GLightbox({ ...options });
+  });
+</script>

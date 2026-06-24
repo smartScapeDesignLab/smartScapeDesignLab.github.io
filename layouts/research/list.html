@@ -1,0 +1,39 @@
+{{- define "main" -}}
+
+
+
+<div class="container research-list-page">
+  <div class="article-title mt-4 mb-4">
+    <h1 class="mb-0 common-page-h1-title">
+      {{ .Title | markdownify | emojify }}
+    </h1>
+    {{ with .Params.subtitle }}
+    <p class="mt-1 common-page-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+  </div>
+
+  {{/*  <h2 class="common-page-h2-title"></h2>  */}}
+
+  <div class="row">
+    <div class="co-12 col-md-3 list-page-index-sidebar">
+        {{ range $index, $item := .Pages }}
+          <div class="page-list-index-item"><a href="{{$item.RelPermalink}}">{{$item.Title | markdownify | emojify}}</a></div>
+        {{end}}
+    </div>
+    <div class="co-12 col-md-9 list-page-index-content">
+
+      <div class="research-list-wrap">
+        {{ $paginator := .Paginate .Pages }}
+        {{ range $index, $post := $paginator.Pages }}
+          {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+        {{end}}
+      </div>
+      <div class="pt-5">{{ partial "pagination" . }}</div>
+
+    </div>
+  </div>
+
+
+</div>
+
+{{- end -}}
