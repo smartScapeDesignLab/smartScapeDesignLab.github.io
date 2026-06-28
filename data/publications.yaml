@@ -1,106 +1,252 @@
   - title: "Generative urban climate modeling using coupled GAN-UWG frameworks: Morphological strategies for transformation and adaptive heat mitigation"
     authors_text: "Xiong, Z., Wang, M., Zhao, J., Yuan, H., Sun, C., Zhou, S., ... & Qi, J.*"
     year: 2026
-    journal: "Urban Climate, 65, 102786"
+    cover_image: "images/publications/Urban Climate_2026.png"
+    journal: "Urban Climate"
     research_topic: "Thermal Comfort"
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.uclim.2026.102786
 
+  - title: "A research framework for studying the motivations and obstructions of exposure to urban green spaces"
+    authors_text: "Yue Wu, Xu Nan, Yan Kang, Xudong Zhang, Agnieszka Olszewska-Guizzo, Liqing Zhang, Jinda Qi"
+    year: 2026
+    cover_image: "images/publications/International Journal of Environmental Health Research_2026.png"
+    journal: "International Journal of Environmental Health Research"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1080/09603123.2026.2659267"
 
   - title: "A new method for planning long-distance trails using wilderness quality mapping and trajectory data: A case study of the Taihang Mountain National Forest Trail in China"
     authors_text: "Chen, Y., Cao, Y., Ye, Z., Liu, T., Wang, P., Feng, Y., ... & Yang, R."
     year: 2026
-    journal: "Journal of Environmental Management, 402, 129019"
+    cover_image: "images/publications/Journal of Environmental Management_2026.png"
+    journal: "Journal of Environmental Management"
     research_topic: "Computational urban and landscape design"
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.jenvman.2026.129019
 
+  - title: "Regional EEG Responses from Exposures to Virtual Urban Green Spaces"
+    authors_text: "Yuqing Xue, Zheng Yang Chin, Radha Waykool, Xudong Zhang, Jinda Qi, Like Gobeawan, Ervine Shengwei Lin, Kai Keng Ang"
+    year: 2026
+    cover_image: "images/publications/Applied Sciences_2026.png"
+    journal: "Applied Sciences"
+    research_topic: "Visual Comfort"
+    links:
+      - text: DOI
+        url: https://doi.org/10.3390/app1612588
 
   - title: "A cross-city transferable convolutional neural network framework for assessing street-scale flood risks in urban networks"
     authors_text: "Wang, M., Zhuang, J. A., Zhao, J., Sun, C., Li, J., Zhou, L., ... & Qi, J.*"
     year: 2025
-    journal: "Journal of Environmental Management, 395, 127977"
+    cover_image: "images/publications/Journal of Environmental Management_2025.png"
+    journal: "Journal of Environmental Management"
     research_topic: "Computational urban and landscape design"
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.jenvman.2025.127977
 
-
   - title: "Tourism-related short-term migration for heat adaptation: Impacts of socio-economic-institutional, climatic, socio-interactive, emotional, and perceptive-behavioral-psychological factors and implications for responsible tourism development"
     authors_text: "He, B. J., Qi, J., Cheshmehzangi, A., Attia, S., Prasad, D., Zahed, L. M., ... & Liu, Z."
     year: 2025
-    journal: "Human Settlements and Sustainability, 1(4), 290-303"
+    cover_image: "images/publications/Human Settlements and Sustainability_2025.png"
+    journal: "Human Settlements and Sustainability"
     research_topic: "Thermal Comfort"
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.hssust.2025.09.004
 
-
   - title: "Climate-driven transformations: A framework for the sustainable urban landscape system to enhance heat resilience"
     authors_text: "Huang, B., Qi, J., Pathak, M., Sharifi, A., Cheshmehzangi, A., Attia, S., ... & He, B. J."
     year: 2025
-    journal: "Sustainable Cities and Society, 106684"
+    cover_image: "images/publications/Sustainable Cities and Society_2025.png"
+    journal: "Sustainable Cities and Society"
     research_topic: "Thermal Comfort"
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.scs.2025.106684
 
-
-
-  - title: "A Decision-Making Framework to Support Urban Heat Mitigation by Local Governments"
-    authors_text: "Qi, J.*, Ding, L., & Lim, S."
-    journal: "Resources, Conservation & Recycling (JCR Q1), 184, 106420"
-    year: 2022
-    cover_image: ""
+  - title: "Applying 3D spatial metrics for landscape planning: Creating and measuring landscape scenarios by a point cloud-based approach"
+    authors_text: "Qi, J., Lin, E. S., Tan, P. Y., Zhang, X., Ho, R., Sia, A., Olszewska-Guizzo, A., & Waykool, R."
+    journal: "Ecological Informatics"
+    year: 2024
+    cover_image: "images/publications/Ecological Informatics_2024.png"
     research_topic: "Computational urban and landscape design"
     home_featured: 1
+    #pdf: "uploads/publications/Applying-3D.pdf"
     links:
       - text: "DOI"
-        url: "https://doi.org/10.1016/j.resconrec.2022.106420"
+        url: "https://doi.org/10.1016/j.ecoinf.2023.102436"
+
+  - title: "Beyond just green: Explaining and predicting restorative potential of urban landscapes using panorama-based metrics"
+    authors_text: "Xudong Zhang, Ervine Shengwei Lin, Puay Yok Tan, Jinda Qi, Roger Ho, Angelia Sia, Radha Waykool, Xiao Ping Song, Agnieszka Olszewska-Guizzo, Lingshuang Meng, Yue Cao"
+    year: 2024
+    cover_image: "images/publications/Landscape and Urban Planning_2024.png"
+    journal: "Landscape and Urban Planning"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.landurbplan.2024.105044"
+
+  - title: "Towards healthy cities: Modeling restorative potential of urban environments by coupling LiDAR-derived 3D metrics with panorama-based online survey"
+    authors_text: "Xudong Zhang, Jinda Qi, Ervine Shengwei Lin, Puay Yok Tan, Roger Ho, Angelia Sia, Xiao Ping Song, Radha Waykool, Agnieszka Olszewska-Guizzo"
+    year: 2024
+    cover_image: "images/publications/Environmental Impact Assessment Review_2024.png"
+    journal: "Environmental Impact Assessment Review"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.eiar.2024.107497"
 
   - title: "Application of a decision-making framework for multi-objective optimisation of urban heat mitigation strategies"
     authors_text: "Qi, J.*, Ding, L., & Lim, S."
-    journal: "Urban Climate (JCR Q1), 47, 101372"
+    journal: "Urban Climate"
     year: 2023
-    cover_image: ""
+    cover_image: "images/publications/Urban Climate_2023.png"
     research_topic: "Computational urban and landscape design"
     home_featured: 1
     links:
       - text: "DOI"
         url: "https://doi.org/10.1016/j.uclim.2022.101372"
 
-  - title: "Development and application of 3D spatial metrics using point clouds for landscape visual quality assessment"
-    authors_text: "Qi, J.*, Lin, E. S., Tan, P. Y., Ho, R. C. M., Sia, A., Olszewska-Guizzo, A., Zhang, X., & Waykool, R."
-    journal: "Landscape and Urban Planning (JCR Q1), 228, 104585"
-    year: 2022
-    cover_image: ""
-    research_topic: "Computational urban and landscape design"
-    home_featured: 1
-    links:
-      - text: "DOI"
-        url: "https://doi.org/10.1016/j.landurbplan.2022.104585"
-
   - title: "Representing the landscape visual quality of residential green spaces in Singapore with 3D spatial metrics"
     authors_text: "Qi, J., Lin, E. S., Tan, P. Y., Zhang, X., Ho, R., Sia, A., Olszewska-Guizzo, A., & Waykool, R."
-    journal: "Urban Forestry & Urban Greening (JCR Q1), 90, 128132"
+    journal: "Urban Forestry & Urban Greening"
     year: 2023
-    cover_image: "images/publications/ph2.jpg"
+    cover_image: "images/publications/Urban Forestry Urban Greening_2023.png"
     research_topic: "Computational urban and landscape design"
     home_featured: 1
     links:
       - text: "DOI"
         url: "https://doi.org/10.1016/j.ufug.2023.128132"
 
-  - title: "Applying 3D spatial metrics for landscape planning: Creating and measuring landscape scenarios by a point cloud-based approach"
-    authors_text: "Qi, J., Lin, E. S., Tan, P. Y., Zhang, X., Ho, R., Sia, A., Olszewska-Guizzo, A., & Waykool, R."
-    journal: "Ecological Informatics (JCR Q1), 79, 102436"
-    year: 2024
+  - title: "Protecting rural large old trees with multi-scale strategies: Integrating spatial analysis and the contingent valuation method (CVM) for socio-cultural value assessment"
+    authors_text: "Na Yao, Chenxi Gu, Jinda Qi, Shigang Shen, Bo Nan, Hongjie Wang"
+    year: 2023
+    cover_image: "images/publications/Forests_2023.png"
+    journal: "Forests"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.3390/f15010018"
+
+  - title: "Risk assessment of terrestrial protected areas to extreme wind hazards: A case study in Queensland, Australia"
+    authors_text: "Jinda Qi, Bao-Jie He, Yue Cao, Jiaying Dong, Ervine Shengwei Lin"
+    year: 2023
+    cover_image: "images/publications/Landscape and Urban Planning_2023.png"
+    journal: "Landscape and Urban Planning"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.landurbplan.2023.104888"
+
+  - title: "Urban heat mitigation strategies"
+    authors_text: "Jinda Qi, Bao-Jie He"
+    year: 2023
+    cover_image: "images/publications/Climate Change and Cooling Cities_2023.png"
+    journal: "Climate Change and Cooling Cities"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1007/978-981-99-3675-5"
+
+  - title: "Assessment of visual landscape quality of urban green spaces using image-based metrics derived from perceived sensory dimensions"
+    authors_text: "Xudong Zhang, Ervine Shengwei Lin, Puay Yok Tan, Jinda Qi, Radha Waykool"
+    year: 2023
+    cover_image: "images/publications/Environmental Impact Assessment Review_2023.png"
+    journal: "Environmental Impact Assessment Review"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.eiar.2023.107200"
+
+  - title: "Linking Image-Based Metrics to 3D-Model-Based Metrics for Assessment of Visual Landscape Quality"
+    authors_text: "Xudong Zhang, Ervine Shengwei Lin, Jinda Qi, Puay Yok Tan"
+    year: 2023
+    cover_image: "images/publications/Journal of Digital Landscape Architecture_2023.png"
+    journal: "Journal of Digital Landscape Architecture"
+    research_topic: "Computational urban and landscape design"
+
+  - title: "Supply-demand measurement and spatial allocation of Sponge facilities for Sponge city construction"
+    authors_text: "Mo Wang, Haojun Yuan, Dongqing Zhang, Jinda Qi, Qiuyi Rao, Jianjun Li, Soon Keat Tan"
+    year: 2023
+    cover_image: "images/publications/Ecological Indicators_2023.png"
+    journal: "Ecological Indicators"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.ecolind.2023.110141"
+
+  - title: "Assessing and optimizing the hydrological performance of Grey-Green infrastructure systems in response to climate change and non-stationary time series"
+    authors_text: "Mo Wang, Ming Liu, Dongqing Zhang, Jinda Qi, Weicong Fu, Yu Zhang, Qiuyi Rao, Amin E Bakhshipour, Soon Keat Tan"
+    year: 2023
+    cover_image: "images/publications/Water Research_2023.png"
+    journal: "Water Research"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.watres.2023.119720"
+
+  - title: "A Decision-Making Framework to Support Urban Heat Mitigation by Local Governments"
+    authors_text: "Qi, J.*, Ding, L., & Lim, S."
+    journal: "Resources, Conservation & Recycling"
+    year: 2022
+    cover_image: "images/publications/Resources, Conservation & Recycling_2022.png"
     research_topic: "Computational urban and landscape design"
     home_featured: 1
-    pdf: "uploads/publications/Applying-3D.pdf"
-    cover_image: "images/publications/ph2.jpg"
     links:
       - text: "DOI"
-        url: "https://doi.org/10.1016/j.ecoinf.2023.102436"
+        url: "https://doi.org/10.1016/j.resconrec.2022.106420"
+
+  - title: "Development and application of 3D spatial metrics using point clouds for landscape visual quality assessment"
+    authors_text: "Qi, J.*, Lin, E. S., Tan, P. Y., Ho, R. C. M., Sia, A., Olszewska-Guizzo, A., Zhang, X., & Waykool, R."
+    journal: "Landscape and Urban Planning"
+    year: 2022
+    cover_image: "images/publications/Landscape and Urban Planning_2022.png"
+    research_topic: "Computational urban and landscape design"
+    home_featured: 1
+    links:
+      - text: "DOI"
+        url: "https://doi.org/10.1016/j.landurbplan.2022.104585"
+
+  - title: "Beating the urban heat: Situation, background, impacts and the way forward in China"
+    authors_text: "Bao-Jie He, Junsong Wang, Jin Zhu, Jinda Qi"
+    year: 2022
+    cover_image: "images/publications/Renewable and Sustainable Energy Reviews_2022.png"
+    journal: "Renewable and Sustainable Energy Reviews"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.rser.2022.112350"
+
+  - title: "A framework for addressing urban heat challenges and associated adaptive behavior by the public and the issue of willingness to pay for heat resilient infrastructure in Chongqing, China"
+    authors_text: "Bao-Jie He, Dongxue Zhao, Ke Xiong, Jinda Qi, Giulia Ulpiani, Gloria Pignatta, Deo Prasad, Phillip Jones"
+    year: 2021
+    cover_image: "images/publications/Sustainable Cities and Society_2021.png"
+    journal: "Sustainable Cities and Society"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.scs.2021.103361"
+
+  - title: "Toward cool cities and communities: A sensitivity analysis method to identify the key planning and design variables for urban heat mitigation techniques"
+    authors_text: "Jinda Qi, Lan Ding, Samsung Lim"
+    year: 2021
+    cover_image: "images/publications/Sustainable Cities and Society_2021b.png"
+    journal: "Sustainable Cities and Society"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.scs.2021.103377"
+
+  - title: "A pressure-state-response framework for the sustainability analysis of water national parks in China"
+    authors_text: "Wei Li, Jinda Qi, Shuping Huang, Weicong Fu, Le Zhong, Bao-Jie He"
+    year: 2021
+    cover_image: "images/publications/Ecological Indicators_2021.png"
+    journal: "Ecological Indicators"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.ecolind.2021.108127"
