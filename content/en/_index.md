@@ -65,8 +65,8 @@ heroSlideBlock:
 
 
 research: 
-  title: Research Direction 
-  show_limit: 4
+  title: Projects 
+  show_limit: 5
 #    
 
 featured_publication: 
