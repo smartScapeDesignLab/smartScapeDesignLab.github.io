@@ -168,6 +168,9 @@
     cover_image: "images/publications/Journal of Digital Landscape Architecture_2023.png"
     journal: "Journal of Digital Landscape Architecture"
     research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://www.researchgate.net/publication/379888315_Linking_Image-based_Metrics_to_3D_Model-based_Metrics_for_Assessment_of_Visual_Landscape_Quality"
 
   - title: "Supply-demand measurement and spatial allocation of Sponge facilities for Sponge city construction"
     authors_text: "Mo Wang, Haojun Yuan, Dongqing Zhang, Jinda Qi, Qiuyi Rao, Jianjun Li, Soon Keat Tan"
