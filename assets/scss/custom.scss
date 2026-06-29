@@ -536,6 +536,13 @@ h2.common-page-h1-title {
 }
 
 
+#featured_publication2 {
+  .pub-cover-image {
+    object-fit: contain;
+  }
+}
+
+
 .home-news-list  {
   .news-list-item {
     border-top: 1px solid #dee2e6;
