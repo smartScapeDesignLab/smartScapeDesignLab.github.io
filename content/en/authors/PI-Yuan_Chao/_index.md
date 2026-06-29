@@ -1,13 +1,13 @@
 ---
 # Display name
-title: YUAN Chao
+title: QI Jinda
 
 user_groups:
   - Principal Investigator
  
 
 # Role/position
-role:  Assistant professor
+role: Assistant Professor (Tenure Track)
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -38,7 +38,7 @@ social:
   #   link: https://github.com/g 
        
 
-order_weight: 5
+order_weight: 1
 
 ---
 
