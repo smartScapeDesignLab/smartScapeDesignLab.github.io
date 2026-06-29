@@ -1,13 +1,13 @@
 ---
 # Display name
-title: QI Jinda
+title: WANG Mingqi
 
 user_groups:
-  - Principal Investigator
+  - PhD Student
  
 
 # Role/position
-role: Assistant Professor (Tenure Track)
+role:  PhD Student
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:email_placeholder@nus.edu.sg'
+    link: 'mailto:member_placeholder@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -38,15 +38,15 @@ social:
   #   link: https://github.com/g 
        
 
-order_weight: 1
+order_weight: 3
 
 ---
 
 ## Biography
-Professor Placeholder Name leads the SmartScape Design Lab. The research group focuses on AI-driven built environment design, computational urban and landscape analysis, and human-centred environmental performance, with interests in thermal comfort, visual comfort, climate resilience, and data-informed design workflows.
+Team Member Placeholder works on data-driven and computational approaches for evaluating and improving urban and landscape environments. Current interests include environmental simulation, spatial analytics, human comfort assessment, and design-support tools.
 
-## Funding
-Professor Placeholder Name leads the SmartScape Design Lab. The research group focuses on AI-driven built environment design, computational urban and landscape analysis, and human-centred environmental performance, with interests in thermal comfort, visual comfort, climate resilience, and data-informed design workflows.
+## Research Directions
+AI-driven built environment design; thermal comfort; visual comfort; computational urban and landscape design.
 
 
 ## CV

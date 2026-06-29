@@ -13,6 +13,7 @@ sections:
         - Principal Investigator
         - PhD Student
         - Research Assistant
+        - Student
         - Alumni
 
       # sort_by: Params.last_name
