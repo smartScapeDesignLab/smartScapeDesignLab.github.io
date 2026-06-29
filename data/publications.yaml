@@ -250,3 +250,75 @@
     links:
       - text: DOI
         url: "https://doi.org/10.1016/j.ecolind.2021.108127"
+
+  - title: "Planning for cooler cities: A framework to support the selection of urban heat mitigation techniques"
+    authors_text: "Jinda Qi, Lan Ding, Samsung Lim"
+    year: 2020
+    cover_image: "images/publications/Journal of Cleaner Production_2020.png"
+    journal: "Journal of Cleaner Production"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.jclepro.2020.122903"
+
+  - title: "Impact of the heritage building façade in small-scale public spaces on human activity: Based on spatial analysis"
+    authors_text: "Yao Mao, Jinda Qi, Bao-Jie He"
+    year: 2020
+    cover_image: "images/publications/Environmental Impact Assessment Review_2020.png"
+    journal: "Environmental Impact Assessment Review"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.eiar.2020.106457"
+
+  - title: "Ontology-based knowledge representation of urban heat island mitigation strategies"
+    authors_text: "Jinda Qi, Lan Ding, Samsung Lim"
+    year: 2020
+    cover_image: "images/publications/Sustainable Cities and Society_2020.png"
+    journal: "Sustainable Cities and Society"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.scs.2019.101875"
+
+
+
+  - title: "Co-benefits approach: Opportunities for implementing sponge city and urban heat island mitigation"
+    authors_text: "Bao-Jie He, Jin Zhu, Dong-Xue Zhao, Zhong-Hua Gou, Jin-Da Qi, Junsong Wang"
+    year: 2019
+    cover_image: "images/publications/Land Use Policy_2019.png"
+    journal: "Land Use Policy"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.landusepol.2019.05.003"
+
+  - title: "Do grey infrastructures always elevate urban temperature? No, utilizing grey infrastructures to mitigate urban heat island effects"
+    authors_text: "Jin-Da Qi, Bao-Jie He, Mo Wang, Jin Zhu, Wei-Cong Fu"
+    year: 2019
+    cover_image: "images/publications/Sustainable Cities and Society_2019.png"
+    journal: "Sustainable Cities and Society"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.1016/j.scs.2018.12.020"
+
+  - title: "百里杜鹃国家森林公园盛花期游览路线选择"
+    authors_text: "傅伟聪, 齐津达, 陈梓茹, 朱志鹏, 董建文, 丁国昌"
+    year: 2016
+    cover_image: "images/publications/forest and environment_2016.png"
+    journal: "森林与环境学报"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.13324/j.cnki.jfcf.2016.01.019"
+
+  - title: "基于 GIS 与 SBE 法的旗山国家森林公园景观视觉评价"
+    authors_text: "齐津达, 傅伟聪, 李伟, 林双毅, 董建文"
+    year: 2015
+    cover_image: "images/publications/northwest forestry_2015.png"
+    journal: "西北林学院学报"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.3969/j.issn.1001-7461.2015.02.43"
