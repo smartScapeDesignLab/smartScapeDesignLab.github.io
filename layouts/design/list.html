@@ -17,25 +17,17 @@
 
         {{ if   eq .CurrentSection .FirstSection  }}
           {{/* 这是 /design/ 页面 */}}
-          {{/* 显示所有 Thesis/Studio/Competition 文章 */}}
 
-            {{/* 遍历 design 下的每个子分类（thesis, studio, competition） */}}
+            {{/* 直接遍历所有项目，不按分类分组 */}}
+            {{ range .RegularPagesRecursive }}
+              <div class="page-list-index-item"><a href="{{.RelPermalink}}">{{.Title | markdownify | emojify}}</a></div>
+            {{ end }}
+
+            {{/* 按分类分组显示（需要时取消注释，并注释掉上方直接遍历） */}}
+            {{/*
             {{ range .Sections }}
               <section>
                 <div class="page-list-subcategory"><a href="{{.RelPermalink}}">{{.Title | markdownify | emojify}}</a></div>
-                  {{/* 遍历该分类下的每个子文件夹（the1, the2...） */}}
-                  {{/*  {{ range .Sections }}
-                    <li>
-                      <strong>{{ .Title }}</strong>
-                      <ul>
-                        {{ range .RegularPages }}
-                          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                        {{ end }}
-                      </ul>
-                    </li>
-                  {{ end }}  */}}
-
-                  {{/* 如果没有子文件夹，直接显示该分类下的文章 */}}
                   {{ if eq (len .Sections) 0 }}
                       {{ range .RegularPages }}
                         <div class="page-list-index-item"><a href="{{.RelPermalink}}">{{.Title | markdownify | emojify}}</a></div>
@@ -43,6 +35,7 @@
                   {{ end }}
               </section>
             {{ end }}
+            */}}
 
         {{ else }}
           {{/* 这是 /design/thesis/ 或 /design/studio/ 等子页面 */}}
