@@ -13,6 +13,7 @@ sections:
         - Principal Investigator
         - Research fellow
         - PhD Student
+        - Visiting PhD
         - Research Assistant
         - Student
 
