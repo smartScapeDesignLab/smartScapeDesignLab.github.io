@@ -1,6 +1,6 @@
 ---
 # Display name
-title: ZHONG Qikang
+title: Xiong Suwen
 
 user_groups:
   - Research Assistant
@@ -14,7 +14,7 @@ role:  Research Assistant
 # Organizations/Affiliations
 organizations:
   - name:  SmartScape Design Lab; Department of Architecture, National University of Singapore
-    url: 'https://cde.nus.edu.sg/'
+#    url: 'https://cde.nus.edu.sg/'
 
 
  
@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:member_placeholder@nus.edu.sg'
+  #  link: 'mailto:member_placeholder@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -43,11 +43,8 @@ order_weight: 4
 ---
 
 ## Biography
-Team Member Placeholder works on data-driven and computational approaches for evaluating and improving urban and landscape environments. Current interests include environmental simulation, spatial analytics, human comfort assessment, and design-support tools.
+
 
 ## Research Directions
-AI-driven built environment design; thermal comfort; visual comfort; computational urban and landscape design.
 
 
-## CV
-View details in [pdf](https://www.nus.edu.sg).

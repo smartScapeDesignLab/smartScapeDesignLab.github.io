@@ -1,20 +1,20 @@
 ---
 # Display name
-title: WANG Mingqi
+title: Feng Xinhui
 
 user_groups:
   - PhD Student
  
 
 # Role/position
-role:  PhD Student
+role:  Visiting PhD Student
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
 # Organizations/Affiliations
 organizations:
   - name:  SmartScape Design Lab; Department of Architecture, National University of Singapore
-    url: 'https://cde.nus.edu.sg/'
+#    url: 'https://cde.nus.edu.sg/'
 
 
  
@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:member_placeholder@nus.edu.sg'
+  #  link: 'mailto:member_placeholder@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -43,11 +43,9 @@ order_weight: 3
 ---
 
 ## Biography
-Team Member Placeholder works on data-driven and computational approaches for evaluating and improving urban and landscape environments. Current interests include environmental simulation, spatial analytics, human comfort assessment, and design-support tools.
+
 
 ## Research Directions
-AI-driven built environment design; thermal comfort; visual comfort; computational urban and landscape design.
 
 
-## CV
-View details in [pdf](https://www.nus.edu.sg).
+

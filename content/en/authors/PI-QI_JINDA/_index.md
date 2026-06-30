@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'jindaqi@nus.edu.sg'
+    link: 'mailto:jindaqi@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x

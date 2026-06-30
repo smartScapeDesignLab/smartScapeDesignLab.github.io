@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Wu HaoWei
+title: Peng You
 
 user_groups:
-  - PhD Student
+  - Research fellow
  
 
 # Role/position
-role:  PhD Student
+role:  Research fellow
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
 # Organizations/Affiliations
 organizations:
   - name:  SmartScape Design Lab; Department of Architecture, National University of Singapore
-  # url: 'https://cde.nus.edu.sg/'
+#    url: 'https://cde.nus.edu.sg/'
 
 
  
@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  # link: 'mailto:member_placeholder@nus.edu.sg'
+  #  link: 'mailto:member_placeholder@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -38,11 +38,12 @@ social:
   #   link: https://github.com/g 
        
 
-order_weight: 3
+order_weight: 2
 
 ---
 
 ## Biography
+
 
 
 ## Research Directions
