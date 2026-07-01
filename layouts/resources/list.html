@@ -48,6 +48,7 @@
 
       <div class="research-list-wrap">
         {{ range $index, $item := $all_items }}
+          {{ if not $item.Params.hide_card }}
 
                 {{ $filterClasses := "" }}
                 {{ with .Params.categories }}
@@ -61,6 +62,7 @@
                   {{ partial "views/research_item_card" (dict  "item" $item  "index" $index) }}
                 </div>
 
+          {{ end }}
         {{ end }}
 
       </div>

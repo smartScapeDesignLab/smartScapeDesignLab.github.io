@@ -15,6 +15,7 @@ categories:
 
 
 # true 展示在首页 
+hide_card: true
 featured: true
 # 详情页面的 社交按钮图标 不展示 
 share: false
