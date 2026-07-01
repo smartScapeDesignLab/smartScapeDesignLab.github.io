@@ -33,7 +33,7 @@ heroSlideBlock:
 
     slides:
 
-      - title: "" # desc-title1
+      - title: "AI-Driven Built Environment Research"
         content:  "" # desc1
         align: left
         background:
@@ -42,21 +42,7 @@ heroSlideBlock:
             filters:
               brightness: 1 # 0.5 #1
           position: right
-          color: '#666'  
-
-      - title: "AI-Driven Built Environment Research"
-        content: ""
-        align: left
-        background:
-          image:
-            filename: group_slides/s2.png
-            filters:
-              brightness: 1
-          position: center
           color: '#666'
-        cta:
-          label: View Projects
-          url: /research/
 
       - title: "Join SmartScape Design Lab"
         content: ""
