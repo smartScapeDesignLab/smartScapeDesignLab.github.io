@@ -1,6 +1,9 @@
 ---
 title: "Biophilic Benchmarking & Ecosystem Modelling" 
- 
+summary: "This project develops ecosystem-modelling approaches to benchmark biophilic landscape design and support evidence-based landscape planning, assessment, and decision-making."
+date: "2026–2030"
+
+
 categories:
   - PI-led Projects
 
@@ -21,7 +24,7 @@ This project develops ecosystem-modelling approaches to benchmark biophilic land
 
 ##  Period
 
-Role: Principal Investigator
+Role: Principal Investigator  
 2026–2030   External funding
 
 ##  Output

@@ -1,6 +1,9 @@
 ---
 title: "Nature Use & Health Benefits" 
- 
+summary: "This project studies how perceptions and affordances shape the use of nature for health benefits, with implications for landscape design, public space planning, and human well-being."
+date: "2026–2029"
+
+
 categories:
   - Co-PI Projects
 
@@ -21,7 +24,7 @@ This project studies how perceptions and affordances shape the use of nature for
 
 ##  Period
 
-Role: Co-Principal Investigator
+Role: Co-Principal Investigator  
 2026–2029   External funding
 
 ##  Output

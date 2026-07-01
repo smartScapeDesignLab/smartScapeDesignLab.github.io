@@ -1,6 +1,9 @@
 ---
 title: "Green Building & Health" 
- 
+summary: "This project develops an intelligent adaptation framework for building envelopes that balances dynamic occupant demand with multi-objective environmental supply."
+date: "2025–2028"
+
+
 categories:
   - PI-led Projects
 
@@ -21,7 +24,7 @@ This project develops an intelligent adaptation framework for building envelopes
 
 ##  Period
 
-Role: Principal Investigator
+Role: Principal Investigator  
 2025–2028   External funding
 
 ##  Output

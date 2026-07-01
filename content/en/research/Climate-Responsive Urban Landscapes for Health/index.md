@@ -1,6 +1,9 @@
 ---
 title: "Climate-Responsive Urban Landscapes for Health" 
- 
+summary: "This project explores how urban landscapes can be optimised under climate change to support health promotion, environmental comfort, and climate-resilient urban living."
+date: "2024–2028"
+
+
 categories:
   - PI-led Projects
 
@@ -21,7 +24,7 @@ This project explores how urban landscapes can be optimised under climate change
 
 ##  Period
 
-Role: Principal Investigator
+Role: Principal Investigator  
 2024–2028   Internal funding
 
 ##  Output
