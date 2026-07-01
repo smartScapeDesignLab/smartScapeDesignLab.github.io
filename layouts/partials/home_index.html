@@ -40,7 +40,7 @@ $research_items := partial "functions/get_type_items" (dict "item_type"
         {{ .Params.research.title | markdownify }}
       </div>
     </div>
-    <div class="research-list-wrap">
+    <div class="research-list-wrap" style="padding: 0 1rem;">
       {{ range $index, $item := $research_items }}
           {{ partial  "functions/render_view" (dict
                         "item" $item

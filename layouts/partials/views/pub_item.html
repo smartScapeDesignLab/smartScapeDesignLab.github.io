@@ -14,7 +14,7 @@
                   <div class="pub-title ">
                     {{if $title_url }} <a href="{{ $title_url | safeURL }}" target="_blank" rel="noopener noreferrer"> {{end}}
                         <i class="far fa-file-alt pub-icon" aria-hidden="true"></i> {{ $item.title | markdownify | safeHTML}}
-                        <span class="pub-journal">{{ $item.journal | markdownify | safeHTML}} ({{$item.year}}) </span>
+                        <div class="pub-journal">{{ $item.journal | markdownify | safeHTML}} ({{$item.year}}) </div>
                     {{if $title_url }} </a> {{end}}
                   </div>
 
