@@ -33,7 +33,7 @@ heroSlideBlock:
 
     slides:
 
-      - title: "AI-Driven Built Environment Research"
+      - title: "Designing for Human Comfort and Climate Resilience"
         content:  "" # desc1
         align: left
         background:
@@ -44,7 +44,7 @@ heroSlideBlock:
           position: right
           color: '#666'
 
-      - title: "Join SmartScape Design Lab"
+      - title: "Join Us in Shaping Future Environments"
         content: ""
         align: left
         background:
