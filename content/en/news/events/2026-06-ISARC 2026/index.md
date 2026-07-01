@@ -2,8 +2,6 @@
 title: "ISARC 2026 highlights construction automation and robotics at NUS"
 
 date: 2026-06-26 
- 
-url: "https://www.iaarc.org/isarc-2026"
 
 # true 展示在首页 
 featured: true

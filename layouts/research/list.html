@@ -22,8 +22,8 @@
             {{ $cat := . }}
             <div class="page-list-subcategory">{{ $cat | markdownify | emojify }}</div>
             {{ range $all_items }}
-                {{ with .Params.categories }}
-                    {{ if in . $cat }}
+                {{ if .Params.categories }}
+                    {{ if in .Params.categories $cat }}
                         <div class="page-list-index-item"><a href="{{ .RelPermalink }}">{{ .Title | markdownify | emojify }}</a></div>
                     {{ end }}
                 {{ end }}
