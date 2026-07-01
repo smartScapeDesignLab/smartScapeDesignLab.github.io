@@ -319,6 +319,24 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100% !important;
   }
 
+  .carousel-item:nth-child(2) .hero-title {
+    color: #000000 !important;
+  }
+
+  .carousel-item:nth-child(3) .hero-title {
+    color: #ffffff !important;
+  }
+
+  .cta-btns {
+    position: relative;
+    z-index: 10;
+    .btn {
+      background-color: #000000;
+      color: #ffffff;
+      border: none;
+      pointer-events: auto;
+    }
+  }
 
 }
 

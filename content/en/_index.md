@@ -44,7 +44,7 @@ heroSlideBlock:
           position: right
           color: '#666'  
 
-      - title: "Designing for Human Comfort and Climate Resilience"
+      - title: "AI-Driven Built Environment Research"
         content: ""
         align: left
         background:
@@ -58,7 +58,7 @@ heroSlideBlock:
           label: View Projects
           url: /research/
 
-      - title: "Join Us in Shaping Future Environments"
+      - title: "Join SmartScape Design Lab"
         content: ""
         align: left
         background:
