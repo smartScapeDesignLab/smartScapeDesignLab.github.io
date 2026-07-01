@@ -9,25 +9,24 @@ content_titles:
   contact_info: Contact Information
 
 content_values:
-  email:  contact@cde.nus.edu.sg
+  email:  jindaqi@nus.edu.sg
   address: | 
-    National University of Singapore College of Design and Engineering 
+    SmartScape Design Lab, Department of Architecture, 2 Architecture Dr, 
     <br>
-    Office of Student Life TechnoEdge Blk C1, #03-01C 2 Engineering Drive 4 
+    National University of Singapore College of Design and Engineering, 
     <br>
-    Singapore 117584
+    Singapore 117565
 
-  university_site: https://cde.nus.edu.sg
-  site_info: For more information, please visit the university's website
+  department_site: https://cde.nus.edu.sg/arch/
+  site_info: For more information, please visit the Department of Architecture website
 
 
 
 ---
 
-The **SmartScape Design Lab** at the Department of Architecture, National University of Singapore, advances AI-driven built environment design to improve human visual and thermal comfort. 
+The **SmartScape Design Lab** is based at the Department of Architecture, College of Design and Engineering, National University of Singapore.
 
-Integrating **AI, data-driven modeling, and computational design**, we reveal how landscape composition and spatial configuration shape human experience and translate these insights into generative, predictive, and adaptive design strategies for climate-resilient and health-supportive environments.
-
+We welcome enquiries about research collaboration, visiting opportunities, student and postdoctoral applications, and partnerships related to AI-driven health-supportive built environment, urban climate resilience, visual comfort, thermal comfort, computational urban and landscape design and green buildings.
 
 Get in touch with us.
 
