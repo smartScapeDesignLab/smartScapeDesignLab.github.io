@@ -11,11 +11,11 @@ content_titles:
 content_values:
   email:  jindaqi@nus.edu.sg
   address: | 
-    SmartScape Design Lab, Department of Architecture, 2 Architecture Dr, 
+    SmartScape Design Lab, 2 Architecture Dr, 
     <br>
-    National University of Singapore College of Design and Engineering, 
+    Department of Architecture, College of Design and Engineering, 
     <br>
-    Singapore 117565
+    National University of Singapore, Singapore 117565
 
   department_site: https://cde.nus.edu.sg/arch/
   site_info: For more information, please visit the Department of Architecture website

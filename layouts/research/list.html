@@ -16,9 +16,19 @@
 
   <div class="row">
     <div class="co-12 col-md-3 list-page-index-sidebar">
-        {{ range $index, $item := .Pages }}
-          <div class="page-list-index-item"><a href="{{$item.RelPermalink}}">{{$item.Title | markdownify | emojify}}</a></div>
-        {{end}}
+        {{ $all_items := .Pages }}
+        {{ $unique_types := slice "PI-led Projects" "Co-PI Projects" }}
+        {{ range $unique_types }}
+            {{ $cat := . }}
+            <div class="page-list-subcategory">{{ $cat | markdownify | emojify }}</div>
+            {{ range $all_items }}
+                {{ with .Params.categories }}
+                    {{ if in . $cat }}
+                        <div class="page-list-index-item"><a href="{{ .RelPermalink }}">{{ .Title | markdownify | emojify }}</a></div>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
     </div>
     <div class="co-12 col-md-9 list-page-index-content">
 
