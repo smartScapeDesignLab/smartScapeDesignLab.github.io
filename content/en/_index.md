@@ -43,10 +43,35 @@ heroSlideBlock:
               brightness: 1 # 0.5 #1
           position: right
           color: '#666'  
- 
-  
- 
- 
+
+      - title: "Designing for Human Comfort and Climate Resilience"
+        content: ""
+        align: left
+        background:
+          image:
+            filename: group_slides/s2.png
+            filters:
+              brightness: 1
+          position: center
+          color: '#666'
+        cta:
+          label: View Projects
+          url: /research/
+
+      - title: "Join Us in Shaping Future Environments"
+        content: ""
+        align: left
+        background:
+          image:
+            filename: group_slides/s3.jpg
+            filters:
+              brightness: 1
+          position: center
+          color: '#666'
+        cta:
+          label: Opportunities
+          url: /opportunities/
+
   design:
     # Slide height is automatic unless you force a specific height (e.g. '400px')
     # height controlled by css
