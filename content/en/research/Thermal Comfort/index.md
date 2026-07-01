@@ -1,7 +1,6 @@
 ---
 title: "LiDAR & Urban Thermal Comfort" 
 summary: "This project examines human-centred urban thermal comfort perception by integrating greenery analysis, LiDAR-based spatial data, and dense urban environmental assessment."
-date: "2026–2029"
 
 
 categories:

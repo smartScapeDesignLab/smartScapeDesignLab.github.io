@@ -1,7 +1,6 @@
 ---
 title: "Green Building & Health" 
 summary: "This project develops an intelligent adaptation framework for building envelopes that balances dynamic occupant demand with multi-objective environmental supply."
-date: "2025–2028"
 
 
 categories:

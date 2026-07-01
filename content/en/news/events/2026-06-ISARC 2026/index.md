@@ -11,4 +11,4 @@ share: false
 
 The 43rd International Symposium on Automation and Robotics in Construction (ISARC 2026) was held in Singapore at the National University of Singapore. The event brought together global research and industry discussions on construction automation, robotics, digital construction, lean construction, and smart built environment technologies. SmartScape Design Lab will continue to follow these emerging directions.
 
-For more information, please visit the official ISARC 2026 website.
+For more information, please visit the [official ISARC 2026 website](https://www.iaarc.org/isarc-2026).
