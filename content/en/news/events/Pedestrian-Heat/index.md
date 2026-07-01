@@ -1,9 +1,7 @@
 ---
-title: "Internal research sharing on AI-assisted landscape design and environmental comfort"
+title: "SmartScape Design Lab participates in HIT–NUS academic seminar"
 
-date: 2026-05-28 
- 
- 
+date: 2026-04-07
 
 # true 展示在首页 
 featured: true
@@ -11,4 +9,4 @@ featured: true
 share: false
 ---
 
-The lab organised an internal research sharing session on AI-assisted landscape design, urban heat mitigation, visual comfort assessment, and environmental comfort evaluation. The discussion reviewed ongoing project outputs and future directions for computational, human-centred built environment research.
+SmartScape Design Lab participated in academic seminar with faculty and students from Harbin Institute of Technology during their visit to the National University of Singapore. The seminar provided a platform for academic exchange on climate-responsive public space design, computational urban science, AI-assisted spatial perception, and related approaches to urban and landscape research.
