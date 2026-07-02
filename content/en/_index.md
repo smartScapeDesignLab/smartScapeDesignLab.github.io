@@ -33,7 +33,7 @@ heroSlideBlock:
 
     slides:
 
-      - title: "Designing for Human Comfort and Climate Resilience"
+      - title: "Designing<br>for Human Comfort<br>and Climate Resilience"
         content:  "" # desc1
         align: left
         background:
@@ -44,7 +44,7 @@ heroSlideBlock:
           position: right
           color: '#666'
 
-      - title: "Join Us in Shaping Future Environments"
+      - title: "Join Us<br>in<br>Shaping Future Environments"
         content: ""
         align: left
         background:
