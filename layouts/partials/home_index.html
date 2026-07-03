@@ -48,8 +48,14 @@ $research_items := partial "functions/get_type_items" (dict "item_type"
 <section id="research" class="home-section wg-hero">
   <div class="container">
     <div class="row">
-      <div class="col-12 section-title">
+      <div class="col-12 col-md-9 section-title">
         {{ .Params.research.title | markdownify }}
+      </div>
+      <div class="col-12 col-md-3 mt-md-5">
+        <div class="paper-title">
+          <i class="fa fa-book pub-icon" aria-hidden="true"></i>
+          <a href="{{ "research" | relURL }}">See all projects</a>
+        </div>
       </div>
     </div>
     <div class="research-list-wrap" style="padding: 0 1rem;">
