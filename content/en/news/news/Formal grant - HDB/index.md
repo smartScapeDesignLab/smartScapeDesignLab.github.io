@@ -1,7 +1,7 @@
 ---
 title: "Congratulations to Dr. Qi on receiving an HDB research grant"
 
-date: 2026-06
+date: 2026-06-01
 
 # true 展示在首页 
 featured: false
@@ -9,4 +9,4 @@ featured: false
 share: false
 ---
 
-Dr. Qi has received an HDB research grant to support research on smart, sustainable, and human-centered approaches to Singapore’s built and residential environments.
+Dr. Qi, Principal Investigator of SmartScape Design Lab, has received an HDB research grant to support research on smart, sustainable, and human-centered approaches to Singapore’s built and residential environments.

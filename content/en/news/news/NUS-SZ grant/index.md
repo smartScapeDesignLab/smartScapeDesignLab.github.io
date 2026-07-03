@@ -1,16 +1,15 @@
 ---
 title: "Congratulations to Dr. Qi on receiving the NUS-SZ grant"
 
-date: "2025-03"
+date: "2025-03-01"
 
 # true 展示在首页 
 featured: false
 # 详情页面的 社交按钮图标 不展示 
 share: false
 
-links:
- text: "Read more"
- url: "/projects/Green Building & Health"
+read_more_url: "/projects/Green Building & Health"
+read_more_label: "Read more"
 
 ---
 

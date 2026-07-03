@@ -1,11 +1,10 @@
 ---
 title: "SmartScape Design Lab presents research at IFLA World Congress 2025"
 
-date: 2025-09
+date: 2025-09-01
 
-links:
- text: "Read more"
- url: "https://ifla2025.com/" 
+read_more_url: "https://ifla2025.com/"
+read_more_label: "Read more"
 
 # true 展示在首页 
 featured: true
