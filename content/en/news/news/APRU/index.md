@@ -14,3 +14,6 @@ SmartScape Design Lab joined the NUS x UQ Joint Symposium on Climate Resilience 
 The event provided a valuable platform for sharing research related to climate-responsive urban design, urban heat mitigation, landscape design optimisation, thermal comfort, and urban digital twins.
 
 For more information, please visit the [official NUS Department of Architecture news page](https://cde.nus.edu.sg/arch/news_and_events/news_ay2425_nus_uq_joint_symposium_130325/).
+
+![](Image1.jpg)
+![](Image2.jpg)
