@@ -17,7 +17,7 @@ section_titles:
 heroBlock:
   block: hero
   content:
-    title: About SmartScape 
+    title: About SmartScape lab
 #   image:
 #      filename: research_topic.jpg
     text: |
