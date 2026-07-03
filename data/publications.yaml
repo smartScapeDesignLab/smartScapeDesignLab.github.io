@@ -305,23 +305,3 @@
     links:
       - text: DOI
         url: "https://doi.org/10.1016/j.scs.2018.12.020"
-
-  - title: "百里杜鹃国家森林公园盛花期游览路线选择"
-    authors_text: "傅伟聪, 齐津达, 陈梓茹, 朱志鹏, 董建文, 丁国昌"
-    year: 2016
-    cover_image: "images/publications/forest and environment_2016.png"
-    journal: "森林与环境学报"
-    research_topic: "Computational urban and landscape design"
-    links:
-      - text: DOI
-        url: "https://doi.org/10.13324/j.cnki.jfcf.2016.01.019"
-
-  - title: "基于 GIS 与 SBE 法的旗山国家森林公园景观视觉评价"
-    authors_text: "齐津达, 傅伟聪, 李伟, 林双毅, 董建文"
-    year: 2015
-    cover_image: "images/publications/northwest forestry_2015.png"
-    journal: "西北林学院学报"
-    research_topic: "Computational urban and landscape design"
-    links:
-      - text: DOI
-        url: "https://doi.org/10.3969/j.issn.1001-7461.2015.02.43"

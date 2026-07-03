@@ -3,11 +3,11 @@
 title: Xiong Suwen
 
 user_groups:
-  - Research Assistant
+  - Alumni
  
 
 # Role/position
-role:  Research Assistant
+role:  Former Student
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -38,7 +38,7 @@ social:
   #   link: https://github.com/g 
        
 
-order_weight: 5
+order_weight: 6
 
 ---
 

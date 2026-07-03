@@ -30,7 +30,7 @@ $slider_hash_id := "hero_sliders" }} {{ $slider_args := dict "wcPage" $
             <img src="{{ ($image.Resize "800x").RelPermalink }}" alt="{{ $heroBlock.content.title }}" style="max-width:100%; max-height:370px; width:auto; object-fit:contain;">
           {{ end }}
         </div>
-        <div class="col-12 col-md-9 hero-desc-txt" style="padding: 0 1rem;">
+        <div class="col-12 col-md-9 hero-desc-txt" style="padding: 0 2rem 0 1rem;">
           {{$heroBlock.content.text | markdownify }}
         </div>
       {{ else }}

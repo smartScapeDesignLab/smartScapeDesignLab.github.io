@@ -15,7 +15,7 @@ sections:
         - PhD Student
         - Visiting PhD
         - Research Assistant
-        - Student
+        - Alumni
 
       # sort_by: Params.last_name
       sort_by: Params.order_weight # 按此数字升序排列
