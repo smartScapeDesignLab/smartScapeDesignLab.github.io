@@ -18,8 +18,8 @@ heroBlock:
   block: hero
   content:
     title: About SmartScape lab
-#   image:
-#      filename: research_topic.jpg
+   image:
+      filename: research_topic.png
     text: |
       The SmartScape Design Lab at the Department of Architecture, National University of Singapore, advances AI-driven built environment design to improve human visual and thermal comfort. Integrating AI, data-driven modeling, and computational design, we reveal how landscape composition and spatial configuration shape human experience and translate these insights into generative, predictive, and adaptive design strategies for climate-resilient and health-supportive environments.
 
@@ -44,7 +44,7 @@ heroSlideBlock:
           position: right
           color: '#666'
 
-      - title: "Join Us<br>in<br>Shaping Future Environments"
+      - title: "Join Us<br>in Shaping<br>Future Environments"
         content: ""
         align: left
         background:
