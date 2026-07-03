@@ -24,14 +24,14 @@ $slider_hash_id := "hero_sliders" }} {{ $slider_args := dict "wcPage" $
     </div>
     <div class="row">
       {{ if $heroBlock.content.image.filename }}
-        <div class="col-12 col-md-6 hero-desc-txt">
-          {{$heroBlock.content.text | markdownify }}
-        </div>
         <div class="col-12 col-md-6">
           {{- $image := resources.Get (path.Join "media" $heroBlock.content.image.filename) -}}
           {{ if $image }}
-            <img src="{{ ($image.Resize "800x").RelPermalink }}" alt="{{ $heroBlock.content.title }}" style="max-width:100%; height:auto;">
+            <img src="{{ ($image.Resize "800x").RelPermalink }}" alt="{{ $heroBlock.content.title }}" style="max-width:100%; max-height:350px; width:auto; object-fit:contain;">
           {{ end }}
+        </div>
+        <div class="col-12 col-md-6 hero-desc-txt">
+          {{$heroBlock.content.text | markdownify }}
         </div>
       {{ else }}
         <div class="col-12 hero-desc-txt">
