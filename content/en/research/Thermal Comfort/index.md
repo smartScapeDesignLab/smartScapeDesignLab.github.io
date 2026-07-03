@@ -13,7 +13,7 @@ share: false
 ---
 
 
-##  title
+##  Title
 
 Human-Centric Approaches to Urban Thermal Comfort Perception: Leveraging Greenery and LiDAR in Dense Cityscapes
 

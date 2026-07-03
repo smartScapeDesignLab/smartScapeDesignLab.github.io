@@ -13,7 +13,7 @@ share: false
 ---
 
 
-##  title
+##  Title
 
 Balancing Dynamic Supply and Demand in Green Buildings: Intelligent Adaptation for Human-centric Building Envelope Design
 
