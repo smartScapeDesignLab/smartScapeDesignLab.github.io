@@ -21,7 +21,7 @@ limit: 取多少个
 
 {{/* Query */}}
 {{/*- $query := where (where site.RegularPages "Type" $items_type) "Params.shown" true -*/}}
-{{- $query :=  where site.RegularPages "Type" $items_type  -}}
+{{- $query := where (where site.RegularPages "Type" $items_type) "Params.featured" true -}}
 
 {{/*通过id获取指定的item*/}}
 {{- if gt (len $specified_ids) 0 -}}
