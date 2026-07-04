@@ -3,7 +3,7 @@
 title: Peng You
 
 user_groups:
-  - Research fellow
+  - Members
  
 
 # Role/position

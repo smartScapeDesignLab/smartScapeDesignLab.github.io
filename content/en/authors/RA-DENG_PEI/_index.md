@@ -3,7 +3,7 @@
 title: Deng Pei
 
 user_groups:
-  - Research Assistant
+  - Members
  
 
 # Role/position

@@ -3,7 +3,7 @@
 title: Tang Jing
 
 user_groups:
-  - PhD Student
+  - Members
  
 
 # Role/position

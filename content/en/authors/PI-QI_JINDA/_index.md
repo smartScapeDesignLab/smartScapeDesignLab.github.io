@@ -1,9 +1,9 @@
 ---
 # Display name
-title: QI Jinda
+title: QI Jinda (Principal Investigator)
 
 user_groups:
-  - Principal Investigator
+  - Members
  
 
 # Role/position

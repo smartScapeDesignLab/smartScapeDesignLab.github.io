@@ -3,7 +3,7 @@
 title: Li Jiongye
 
 user_groups:
-  - Research fellow
+  - Members
  
 
 # Role/position

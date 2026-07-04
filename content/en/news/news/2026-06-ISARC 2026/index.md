@@ -4,7 +4,7 @@ title: "ISARC 2026 highlights construction automation and robotics at NUS"
 date: 2026-06-26 
 
 # true 展示在首页 
-featured: true
+featured: false
 # 详情页面的 社交按钮图标 不展示 
 share: false
 ---

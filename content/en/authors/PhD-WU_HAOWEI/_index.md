@@ -3,7 +3,7 @@
 title: Wu HaoWei
 
 user_groups:
-  - PhD Student
+  - Members
  
 
 # Role/position

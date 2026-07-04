@@ -3,7 +3,7 @@
 title: Zhang Yihan
 
 user_groups:
-  - PhD Student
+  - Members
  
 
 # Role/position

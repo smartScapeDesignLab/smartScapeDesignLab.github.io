@@ -3,7 +3,7 @@
 title: Feng Xinhui
 
 user_groups:
-  - Visiting PhD
+  - Members
  
 
 # Role/position
