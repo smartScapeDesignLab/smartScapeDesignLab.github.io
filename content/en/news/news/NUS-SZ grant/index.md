@@ -4,7 +4,7 @@ title: "Congratulations to Dr. Jinda Qi on receiving the NUS-SZ grant"
 date: "2025-03-01"
 
 # true 展示在首页 
-featured: false
+featured: true
 # 详情页面的 社交按钮图标 不展示 
 share: false
 

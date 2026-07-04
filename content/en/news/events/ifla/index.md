@@ -16,5 +16,5 @@ SmartScape Design Lab presented research at the IFLA World Congress 2025 in Nant
 
 The presentation highlighted the lab’s ongoing research on point clouds, spatial metrics, and landscape visual quality assessment, contributing to international discussions on data-informed landscape analysis and design.
 
-![](featured.jpg)
 ![](Image1.jpg)
+![](Image2.jpg)
