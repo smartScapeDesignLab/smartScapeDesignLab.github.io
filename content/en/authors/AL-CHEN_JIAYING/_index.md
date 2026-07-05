@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Xiong Suwen
+title: Chen Jiaying
 
 user_groups:
   - Alumni
  
 
 # Role/position
-role:  Former Student
+role: Alumni
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -44,6 +44,7 @@ order_weight: 6
 
 ## Biography
 
+Driven by the quiet vitality of nature, I see landscapearchitecture as a way to uncover the hidden identity ofthe land. My goal is to create spaces that breathe-wherethe rhythm of the ecosystem meets the pulse of humanlife. I strive to design environments that are not justseen, but felt, giving every landscape a soul and a senseof belonging.
 
 ## Research Directions
 

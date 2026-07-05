@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Xiong Suwen
+title: Wang Qianwen
 
 user_groups:
   - Alumni
  
 
 # Role/position
-role:  Former Student
+role: Alumni
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -44,6 +44,7 @@ order_weight: 6
 
 ## Biography
 
+Qianwen Wang is a Master’s student in Landscape Architecture at the National University of Singapore. Her work focuses on AI-assisted streetscape analysis, urban greening assessment, and data-driven landscape planning. She is particularly interested in using street-view imagery, GIS, and computer vision methods to evaluate urban environments and explore greening strategies for high-density cities.
 
 ## Research Directions
 

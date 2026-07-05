@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Xiong Suwen
+title: Chen Zhuoran
 
 user_groups:
   - Alumni
  
 
 # Role/position
-role:  Former Student
+role: Alumni
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -44,6 +44,7 @@ order_weight: 6
 
 ## Biography
 
+Zhuoran Chen is a landscape designer and recent graduate of the Master of Landscape Architecture program at the National University of Singapore. His interests lie in AI-assisted design methodologies, computational workflows, and the integration of emerging technologies into landscape architectural practice.
 
 ## Research Directions
 

@@ -7,7 +7,7 @@ user_groups:
  
 
 # Role/position
-role:  Former Research Assistant
+role: Alumni
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 

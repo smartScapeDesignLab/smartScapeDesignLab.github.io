@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Xiong Suwen
+title: Zhou Siyuan
 
 user_groups:
   - Alumni
  
 
 # Role/position
-role:  Former Student
+role: Alumni
 # role:  Assistant professor, SmartScape Design Lab; Department of Architecture, National University of Singapore
 
 
@@ -44,6 +44,7 @@ order_weight: 6
 
 ## Biography
 
+Siyuan is a recent graduate of the Master of Landscape Architecture programme at the National University of Singapore. Her interests focus on urban thermal ecology, exploring how landscape design can respond to heat-related challenges in high-density cities through spatial, planting, and ecological strategies that improve microclimates and enhance public space experiences.
 
 ## Research Directions
 
