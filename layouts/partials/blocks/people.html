@@ -29,6 +29,7 @@
     {{/*  {{ $query :=   (where site.Pages "Section" "authors")  }}  */}}
 
     {{ $query := where (where site.Pages "Section" "authors") "Kind" "term" }}
+    {{ $query = where $query ".Params.user_groups" "intersect" $block.content.user_groups }}
 
     {{/* Sort */}}
     {{ $sort_by := $block.content.sort_by | default "Params.last_name" }}
