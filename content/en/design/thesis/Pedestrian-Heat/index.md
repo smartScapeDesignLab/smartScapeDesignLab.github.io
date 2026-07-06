@@ -16,4 +16,9 @@ featured: true
 share: false
 ---
 
-{{< image src="images/design/zsy1.png" >}} 
+{{< image src="images/design/zsy1.png" >}}
+{{< image src="images/design/zsy2.png" >}}
+{{< image src="images/design/zsy3.png" >}}
+{{< image src="images/design/zsy4.png" >}}
+{{< image src="images/design/zsy5.png" >}}
+{{< image src="images/design/zsy6.png" >}}

@@ -1,13 +1,3 @@
-  - title: "Generative urban climate modeling using coupled GAN-UWG frameworks: Morphological strategies for transformation and adaptive heat mitigation"
-    authors_text: "Xiong, Z., Wang, M., Zhao, J., Yuan, H., Sun, C., Zhou, S., ... & Qi, J.*"
-    year: 2026
-    cover_image: "images/publications/Urban Climate_2026.png"
-    journal: "Urban Climate"
-    research_topic: "Thermal Comfort"
-    links:
-      - text: DOI
-        url: https://doi.org/10.1016/j.uclim.2026.102786
-
   - title: "A research framework for studying the motivations and obstructions of exposure to urban green spaces"
     authors_text: "Yue Wu, Xu Nan, Yan Kang, Xudong Zhang, Agnieszka Olszewska-Guizzo, Liqing Zhang, Jinda Qi"
     year: 2026
@@ -27,6 +17,16 @@
     links:
       - text: DOI
         url: https://doi.org/10.1016/j.jenvman.2026.129019
+
+  - title: "Generative urban climate modeling using coupled GAN-UWG frameworks: Morphological strategies for transformation and adaptive heat mitigation"
+    authors_text: "Xiong, Z., Wang, M., Zhao, J., Yuan, H., Sun, C., Zhou, S., ... & Qi, J.*"
+    year: 2026
+    cover_image: "images/publications/Urban Climate_2026.png"
+    journal: "Urban Climate"
+    research_topic: "Thermal Comfort"
+    links:
+      - text: DOI
+        url: https://doi.org/10.1016/j.uclim.2026.102786
 
   - title: "Regional EEG Responses from Exposures to Virtual Urban Green Spaces"
     authors_text: "Yuqing Xue, Zheng Yang Chin, Radha Waykool, Xudong Zhang, Jinda Qi, Like Gobeawan, Ervine Shengwei Lin, Kai Keng Ang"
@@ -223,6 +223,16 @@
     links:
       - text: DOI
         url: "https://doi.org/10.1016/j.rser.2022.112350"
+
+  - title: "The contribution to stress recovery and attention restoration potential of exposure to urban green spaces in low-density residential areas"
+    authors_text: "Shuping Huang, Jinda Qi, Wei Li, Jianwen Dong, Cecil Konijnendijk van den Bosch"
+    year: 2021
+    cover_image: "images/publications/International journal of environmental research and public health_2021.png"
+    journal: "International Journal of Environmental Research and Public Health"
+    research_topic: "Computational urban and landscape design"
+    links:
+      - text: DOI
+        url: "https://doi.org/10.3390/ijerph18168713"
 
   - title: "A framework for addressing urban heat challenges and associated adaptive behavior by the public and the issue of willingness to pay for heat resilient infrastructure in Chongqing, China"
     authors_text: "Bao-Jie He, Dongxue Zhao, Ke Xiong, Jinda Qi, Giulia Ulpiani, Gloria Pignatta, Deo Prasad, Phillip Jones"

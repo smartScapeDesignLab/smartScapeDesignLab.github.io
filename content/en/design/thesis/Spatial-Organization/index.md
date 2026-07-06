@@ -16,4 +16,6 @@ featured: true
 share: false
 ---
 
-{{< image src="images/design/czr1.png" >}} 
+{{< image src="images/design/czr1.png" >}}
+{{< image src="images/design/czr2.png" >}}
+{{< image src="images/design/czr3.png" >}}

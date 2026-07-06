@@ -16,4 +16,8 @@ featured: true
 share: false
 ---
 
-{{< image src="images/design/wq1.png" >}} 
+{{< image src="images/design/wq1.png" >}}
+{{< image src="images/design/wq2.png" >}}
+{{< image src="images/design/wq3.png" >}}
+{{< image src="images/design/wq4.png" >}}
+{{< image src="images/design/wq5.png" >}}

@@ -1,6 +1,8 @@
 ---
 title: "MLA Design Studio Review and Exchange"
 
+date: 2025-05-01 
+
 # true 展示在首页 
 featured: false
 # 详情页面的 社交按钮图标 不展示 

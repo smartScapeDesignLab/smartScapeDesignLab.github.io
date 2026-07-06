@@ -16,4 +16,7 @@ featured: true
 share: false
 ---
 
-{{< image src="images/design/cjy1.png" >}} 
+{{< image src="images/design/cjy1.png" >}}
+{{< image src="images/design/cjy2.png" >}}
+{{< image src="images/design/cjy3.png" >}}
+{{< image src="images/design/cjy4.png" >}}
