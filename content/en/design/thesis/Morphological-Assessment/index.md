@@ -12,6 +12,7 @@ date: 2026-05-12
 
 # true 展示在首页 
 featured: true
+show_featured: false
 # 详情页面的 社交按钮图标 不展示 
 share: false
 ---

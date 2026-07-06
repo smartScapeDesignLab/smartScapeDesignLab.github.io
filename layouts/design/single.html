@@ -27,10 +27,10 @@
 
 
     {{/* Featured image */}}
-    {{with $featured}}
+    {{if and $featured (ne ($page.Params.show_featured | default true) false)}}
     <div class="article-header   mt-4 mb-4" >
       <div style="position: relative">
-        <img src="{{ .RelPermalink }}"  class="featured-image" />
+        <img src="{{ $featured.RelPermalink }}"  class="featured-image" />
       </div>
     </div>
     {{end}}
