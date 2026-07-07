@@ -126,7 +126,7 @@ $research_items := partial "functions/get_type_items" (dict "item_type"
 
 
 {{/* selected news */}} {{ $news_section := site.GetPage "/news" }} {{
-$featured_news := $news_section.RegularPagesRecursive.ByDate.Reverse }} {{
+$featured_news := where $news_section.RegularPagesRecursive "Params.featured" true }} {{
 $featured_news_limit := first .Params.featured_news.show_limit $featured_news }}
 <section id="featured_news" class="home-section">
   <div class="container">

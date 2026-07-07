@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  #  link: 'mailto:member_placeholder@nus.edu.sg'
+    link: 'mailto:pei.deng@nusri.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -46,4 +46,4 @@ order_weight: 5
 
 
 ## Research Directions
-
+outdoor thermal comfort; urban microclimate; built environment and health

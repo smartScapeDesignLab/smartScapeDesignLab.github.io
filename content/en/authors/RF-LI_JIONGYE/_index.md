@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  #  link: 'mailto:member_placeholder@nus.edu.sg'
+    link: 'mailto:jiongye@nus.edu.sg'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -44,7 +44,9 @@ order_weight: 2
 
 ## Biography
 
+Jiongye is a research fellow in the lab. As a researcher with a background in both architecture and landscape architecture, he works to improve the relationship between human beings and the existing ecosystem.
 
+He is particularly interested in exploring diverse ways that architecture and landscapes can be applied to develop society sustainably. His research focuses primarily on using nature-based solutions to solve urban issues, including urban heat, carbon emissions, and urban flooding. In his free time, he enjoys playing tennis, as well as practicing Muay Thai, boxing, judo, and swimming.
 
 ## Research Directions
 thermal comfort; UHI; computational urban and landscape design.
