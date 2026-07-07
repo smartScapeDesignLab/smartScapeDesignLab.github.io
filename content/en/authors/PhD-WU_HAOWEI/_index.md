@@ -14,7 +14,7 @@ role:  PhD Student
 # Organizations/Affiliations
 organizations:
   - name:  SmartScape Design Lab; Department of Architecture, National University of Singapore
-  # url: 'https://cde.nus.edu.sg/'
+  # url: 'haowei.wu@u.nus.edu'
 
 
  

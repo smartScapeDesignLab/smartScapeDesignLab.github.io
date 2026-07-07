@@ -14,7 +14,7 @@ role:  Research fellow
 # Organizations/Affiliations
 organizations:
   - name:  SmartScape Design Lab; Department of Architecture, National University of Singapore
-#    url: 'https://cde.nus.edu.sg/'
+#    url: 'jiongye@nus.edu.sg'
 
 
  

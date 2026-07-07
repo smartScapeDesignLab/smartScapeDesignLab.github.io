@@ -1,7 +1,7 @@
 ---
 title: "SmartScape Design Lab attends 9th APRU Sustainable Cities and Landscapes Conference"
 
-date: 2026-05-21
+date: 2025-05-21
 
 read_more_url: "https://www.apru.org/event/scl-2026/"
 read_more_label: "Read more"
