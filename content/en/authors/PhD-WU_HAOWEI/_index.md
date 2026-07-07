@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  # link: 'mailto:member_placeholder@nus.edu.sg'
+    link: 'mailto:haowei.wu@u.nus.edu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -44,6 +44,7 @@ order_weight: 3
 
 ## Biography
 
+Wu Haowei works on GeoAI and geospatial modeling approaches for evaluating and improving urban design and spatial planning. Current interests include generative AI models for urban planning, urban thermal environment optimization, spatial analytics, and data-driven design-support tools.
 
 ## Research Directions
-
+AI-driven urban planning; Generative model; Urban thermal environment; GeoAI and spatial modeling
