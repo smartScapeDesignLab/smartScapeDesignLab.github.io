@@ -44,7 +44,11 @@ order_weight: 2
 
 ## Biography
 
+Dr. You Peng is an associate investigator at the Sustainable Urban Development Laboratory, NUS Suzhou Research Institute, and a research fellow in the Department of Architecture, College of Design and Engineering, National University of Singapore. He received his PhD in Planning and Decision-Making Behavior from Eindhoven University of Technology and also undertook joint doctoral training at The Hong Kong Polytechnic University.
 
+His research focuses on climate change and urban health, urban thermal environments, human-centered building and environmental design, multisensory environmental perception, and data-driven approaches to sustainable cities. He has published widely in international peer-reviewed journals, with particular interests in understanding how urban form, landscape restructuring, and environmental exposure influence human well-being and urban resilience.
+
+Dr. Peng also serves as a Review Editor for Frontiers in Environmental Science and as a reviewer for journals including Landscape and Urban Planning, Building and Environment, Energy and Buildings, and Environmental Research.
 
 ## Research Directions
-
+Climate change and urban health; urban thermal environments; human-centered building and environmental design; multisensory environmental perception; data-driven approaches to sustainable cities; urban form, landscape restructuring, and environmental exposure for human well-being and urban resilience

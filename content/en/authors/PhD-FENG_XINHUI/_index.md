@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  #  link: 'mailto:member_placeholder@nus.edu.sg'
+    link: 'mailto:fengxinhui@u.nus.edu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -44,8 +44,7 @@ order_weight: 4
 
 ## Biography
 
+Feng Xinhui is primarily engaged in interdisciplinary research spanning territorial spatial planning, regional low-carbon transition and governance, ecosystem service assessment and management, and urban sustainable development. He has published over 30 peer-reviewed papers, with multiple research studies recognized as ESI Top 1% highly cited papers. He serves as a peer reviewer for more than 30 renowned academic journals, including Resources, Conservation & Recycling, Cities, Applied Economics, and Building and Environment.
 
 ## Research Directions
-
-
-
+Low-carbon transition; Sustainable urbanization; Urban spatial governance; Terrestrial ecosystem
