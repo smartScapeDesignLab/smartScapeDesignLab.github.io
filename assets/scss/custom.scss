@@ -420,7 +420,10 @@ h2.common-page-h1-title {
 
  #research {
   .home-research-item {
-
+    .split-image img {
+      height: auto;
+      object-fit: contain;
+    }
   }
  }
 
