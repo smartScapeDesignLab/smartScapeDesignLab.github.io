@@ -579,8 +579,11 @@ h2.common-page-h1-title {
 
   @media (min-width: 768px) {
     .pub-cover-image {
+      display: block;
       width: 80%;
       height: auto;
+      margin-left: auto;
+      margin-right: 0;
     }
   }
 }
