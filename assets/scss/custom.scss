@@ -891,3 +891,9 @@ h2.common-page-h1-title {
 
 
 
+@media (min-width: 768px) {
+  #section-hero .home-about-image {
+    width: 80%;
+    height: auto;
+  }
+}
