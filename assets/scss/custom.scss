@@ -447,6 +447,17 @@ h2.common-page-h1-title {
     }
   }
 
+  .research-featured-img {
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+
+    .article-banner {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
   .common-page-h2-title {
     margin: 0 0 1rem 0;
   }
