@@ -565,6 +565,13 @@ h2.common-page-h1-title {
   .pub-cover-image {
     object-fit: contain;
   }
+
+  @media (min-width: 768px) {
+    .pub-cover-image {
+      width: 80%;
+      height: auto;
+    }
+  }
 }
 
 
