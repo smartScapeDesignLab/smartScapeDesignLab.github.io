@@ -26,7 +26,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-  #  link: 'mailto:member_placeholder@nus.edu.sg'
+    link: 'mailto:e0954586@u.nus.edu'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/x
@@ -43,7 +43,7 @@ order_weight: 3
 ---
 
 ## Biography
-
+Tang Jing is a PhD student at the National University of Singapore (NUS) with an academic background in urban planning. She holds a Master of Urban Planning degree from NUS. Her research focuses on large-scale urban heat island dynamics, urban heat mitigation strategies in the context of urban expansion, and the application of generative AI to support urban heat mitigation and climate-responsive urban planning.
 
 ## Research Directions
-urban heat island; thermal comfort; computational urban and landscape design.
+Urban heat island mitigation; Computer-aided urban planning; Generative AI; 3D generation
